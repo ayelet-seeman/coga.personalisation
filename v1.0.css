@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {font:"Times New Roman", Times, serif; font-size:2.5em; text-align:center; color:#004080}
+h2 {font:Georgia, "Times New Roman", Times, serif font-size:1.15em; text-align:left; color:#004080}
+p {text-align:justify; font:Tahoma, Geneva, sans-serif}
+body {background-color:#EAF4FF}
+#navBar { display: block;
+    width: 115px;
+	height:2.5em;
+    font-weight: bold;
+    color: black;
+    background-color: #71B5FF;
+    text-align: center;
+    padding: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size:1.2em;
+	border-style:groove;
+	vertical-align:central;
+	 border-color:#004080;
+	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {float: left;}
+
+#contactForm { background-color:#71B5FF; width:340px; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
