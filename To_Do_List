@@ -4,11 +4,15 @@
 <li> upload an example HTML page - Ayelet </li>
 <li> write 2 or 3 example JSON descriptions/files for MCI and dyscalcilia using the aria proposal on Adaptable Links and Buttons - Chaohai</li>
 <li>button for choosing what json file to load</li>
-<li>parse the the json to implement aria.importance - hard coding</li>
+<li>parse the the json to implement aria.importance - hard coding - aria</li>
 <li> parse the the json to identify aria-funtion as a variable </li>
 <li> implement aria button and link functions to add icon, change text, shortcut key add tooltip and pannel for extra help</li>
 <li> implement aria button and link functions to add  pannel for extra help with button added to main menu</li>
 <li> parse the the json to identify any attribute as a variable </li>
 <li>identify the cookie</li>
+<li> add later aria properties to the html page </li>
+<li> add later aria properties to the json </li>
+<li> add later aria properties to the script  </li>
+<li> add later api (and other web components) to the html page, the json , the script </li>
 
 </ul>
