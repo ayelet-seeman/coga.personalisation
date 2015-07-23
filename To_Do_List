@@ -1,10 +1,8 @@
 <h2>To Do List</h2>
 <ul>
-<li>decide which buttons with some sample aria-function set on buttons, linkstypes. also should have an example of aria- numberfree and importance levels</li>
-<li> upload an example HTML page - Ayelet </li>
 <li> write 2 or 3 example JSON descriptions/files for MCI and dyscalcilia using the aria proposal on Adaptable Links and Buttons - Chaohai</li>
 <li>button for choosing what json file to load</li>
-<li>parse the the json to implement aria.importance - hard coding - aria</li>
+<li>parse the json to implement aria.importance - hard coding - Ayelet</li>
 <li> parse the the json to identify aria-funtion as a variable </li>
 <li> implement aria button and link functions to add icon, change text, shortcut key add tooltip and pannel for extra help</li>
 <li> implement aria button and link functions to add  pannel for extra help with button added to main menu</li>
