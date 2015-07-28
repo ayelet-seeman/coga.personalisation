@@ -5,46 +5,57 @@
 <title>My Online Clothes Shop</title>
 <link rel="stylesheet" href="https://github.com/ayelet-seeman/coga.personalisation/blob/ExampleWebPage/v1.0.css">
 
+
 </head>
 
 <body>
 <div lang="en">
 <ul>
-<li aria.importance="1" aria.function="homePage"><a href="" id="navBar">Home</a></li>
-<li aria-importance="4" aria-function="aboutUs"><a href="" id="navBar">About Us</a></li>
-<li aria-importance="3" aria-function="services"><a href="" id="navBar">Services</a></li>
-<li aria-importance="2" aria-function="signIn"><a href="" id="navBar">Sign In</a></li>
-<li aria-importance="2" aria-function="products"><a href="" id="navBar">Mens</a></li>
-<li aria-importance="2" aria-function="products"><a href="" id="navBar">Womens</a></li>
-<li aria-importance="2" aria-function="products"><a href="" id="navBar">Childrens</a></li>
-<li aria-importance="1" aria-function="products"><a href="" id="navBar">Sales</a></li>
-<li aria-importance="3" aria-function="contactUs"><a href="" id="navBar">Contact Us</a></li>
-<li aria-importance="2" aria-function="siteMap"><a href="" id="navBar">Site Map</a></li>
+<li @aria-importance="1" aria.function="homePage" class="test"><a href="" class="navBar">Home</a></li>
+<li @aria-importance="4" @aria-function="aboutUs" class="test"><a href="" class="navBar">About Us</a></li>
+<li @aria-importance="3" @aria-function="services" class="test"><a ="" class="navBar">Services</a></li>
+<li @aria-importance="2" @aria-function="signIn" class="test"><a href="" class="navBar">Sign In</a></li>
+<li @aria-importance="2" @aria-function="products" class="test"><a href="" class="navBar">Mens</a></li>
+<li @aria-importance="2" @aria-function="products" class="test"><a href="" class="navBar">Womens</a></li>
+<li @aria-importance="2" @aria-function="products" class="test"><a href="" class="navBar">Childrens</a></li>
+<li @aria-importance="1" @aria-function="products" class="test"><a href="" class="navBar">Sales</a></li>
+<li @aria-importance="3" @aria-function="contactUs" class="test"><a href="" class="navBar">Contact Us</a></li>
+<li @aria-importance="1" @aria-function="siteMap" class="test"><a href="" class="navBar">Site Map</a></li>
 </ul>
-<h1>Online Clothes Shop</h1>
-<p>We have the prettiest, most fashionable clothes for the cheapest prices!</p>
-<h2>SALE!!!</h2>
-<p>All Children's T shirts for <span aria-numberFree="the price is reduced very significantly">70% off</span>.</p>
-<div id=contactForm>
+<h1 @aria-importance="1">Online Clothes Shop</h1>
+<p @aria-importance="1" id="demo">We have the prettiest, most fashionable clothes for the cheapest prices!</p>
+<h2 @aria-importance="2">SALE!!!</h2>
+<p @aria-importance="2">All Children's T shirts for <span aria-numberFree="the price is reduced very significantly">70% off</span>.</p>
+<div class=contactForm>
+
 <h2> Contact Us</h2>
 <form action="MAILTO:ayelet.project1@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input aria-importance="2" aria-function="name" type="text" name="name" value="your name"><br>
-E-mail:<br>
-<input aria-importance="1" aria-function="mail" type="text" name="mail" value="your email"><br>
-Phone Number:<br>
-<input type="text" aria-importance="3" aria-function="phone" name="phone" value="your phone number"><br>
-Subject:<br>
-<input type="text" name="subject" aria-importance="2" value="your subject" size="39px"><br />
+<span @aria-importance="2" @aria-function="name"> Name:<br>
+<input @aria-importance="2" @aria-function="name" type="text" name="name" value="your name"><br></span>
+<span @aria-importance="1" @aria-function="mail" >E-mail:<br>
+<input @aria-importance="1" @aria-function="mail" type="text" name="mail" value="your email"></span><br>
+<span @aria-importance="3" @aria-function="phone" >Phone Number:<br>
+<input type="text" @aria-importance="3" @aria-function="phone" name="phone" value="your phone number"><br></span>
+<span @aria-importance="2"> Subject:<br>
+<input type="text" name="subject" @aria-importance="2" value="your subject" size="39px"><br /></span>
 Message:<br>
-<textarea aria-importance="1" type="text" name="message" rows="10" cols="40">
+<textarea @aria-importance="1" type="text" name="message" rows="10" cols="40">
 Write your message here</textarea>
 <br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+<input @aria-importance="1" @aria-function = "submit" type="submit" value="Send">
+<input type="reset" @aria-importance="3" @aria-function = "reset" value="Reset">
 </form>
 </div>
 </div>
- 
+
+<script src="https://github.com/ayelet-seeman/coga.personalisation/blob/Example-JSON-Files-of-User-Settings/profile.1.0.js"></script>
+
+<script src="https://github.com/ayelet-seeman/coga.personalisation/blob/Script-Options/personalisation.1.0.js"> </script>
+	 
+<script>
+personaliseImportance(cogaProfile);
+</script>
+	  
+
 </body>
 </html>
