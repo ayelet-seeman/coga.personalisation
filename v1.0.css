@@ -5,7 +5,7 @@ h1 {font:"Times New Roman", Times, serif; font-size:2.5em; text-align:center; co
 h2 {font:Georgia, "Times New Roman", Times, serif font-size:1.15em; text-align:left; color:#004080}
 p {text-align:justify; font:Tahoma, Geneva, sans-serif}
 body {background-color:#EAF4FF}
-#navBar { display: block;
+.navBar { display: block;
     width: 115px;
 	height:2.5em;
     font-weight: bold;
@@ -29,4 +29,4 @@ ul {
 
 li {float: left;}
 
-#contactForm { background-color:#71B5FF; width:340px; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
+.contactForm { background-color:#71B5FF; width:340px; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
