@@ -13,7 +13,7 @@
 	"two":
 	{
 		"settings":{
-			"ariaHidden": "true",		}
+			"ariaHidden": "false",		}
 	},
 	"three":
 	{
