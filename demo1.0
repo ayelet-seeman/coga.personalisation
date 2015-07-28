@@ -51,10 +51,7 @@ Write your message here</textarea>
 <script src="https://github.com/ayelet-seeman/coga.personalisation/blob/Example-JSON-Files-of-User-Settings/profile.1.0.js"></script>
 
 <script src="https://github.com/ayelet-seeman/coga.personalisation/blob/Script-Options/personalisation.1.0.js"> </script>
-	 
-<script>
-personaliseImportance(cogaProfile);
-</script>
+
 	  
 
 </body>
