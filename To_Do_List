@@ -12,5 +12,6 @@
 <li> add later aria properties to the json </li>
 <li> add later aria properties to the script  </li>
 <li> add later api (and other web components) to the html page, the json , the script </li>
+<li> enable different default values for aria-importance</li>
 
 </ul>
