@@ -1,11 +1,17 @@
 /* name: personalisation1.0.js
 author: Ayelet Seeman
-function: personaliseImportance
+functions: personaliseImportance(cogaProfile), function moreOptions(cogaProfile), function lessOptions(cogaProfile)
 input: cogaProfile
-output: hides elements according to @aria-importance and user settings in cogaProfile
+output: hides elements according to the aria-importance setting and user settings in cogaProfile
 */
 
 personaliseImportance(cogaProfile)
+
+/* name: personaliseImportance
+author: Ayelet Seeman
+input: cogaProfile
+output: hides elements according to @aria-importance and user settings in cogaProfile
+*/
 function personaliseImportance(cogaProfile)
 {
 	//declare variables
@@ -85,7 +91,11 @@ for (i = 0; i < x.length; i++) {
 }
 
 
-
+/* function-name: moreOptions
+author: Ayelet Seeman
+input: cogaProfile
+output: displays an additional level of elements based on the aria-importance attribute and user settings in cogaProfile
+*/
 
 function moreOptions(cogaProfile)
 {
@@ -104,6 +114,11 @@ function moreOptions(cogaProfile)
 	
 }
 
+/* function-name: lessOptions
+input: cogaProfile
+output: hides an additional level of elements based on the aria-importance attribute and user settings in cogaProfile
+*/
+
 function lessOptions(cogaProfile)
 {
 	var profile = cogaProfile;
@@ -115,6 +130,12 @@ function lessOptions(cogaProfile)
 	}
 	document.getElementById("more_options").setAttribute("aria-hidden", "false");
 }
+
+/* function-name: findImportance
+input: cogaProfile
+output: returns the highest level of aria-importance in which aria-hidden=true, in the user settings in cogaProfile. 
+If is false in all levels, returns "5".
+*/
 
 function findImportance(cogaProfile)
 {
