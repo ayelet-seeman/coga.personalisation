@@ -1,30 +1,30 @@
  var cogaProfile = {
 	 "test":"success",
 
-"ariaImportance":
+"@aria-importance":
 {
-	"one":
+	"1":
 	{
 		"settings":{
-			"ariaHidden": "false",
+			"@aria-hidden": "false",
 		}
 	},
 
-	"two":
+	"2":
 	{
 		"settings":{
-			"ariaHidden": "true",		}
+			"@aria-hidden": "false",		}
 	},
-	"three":
+	"3":
 	{
 		"settings":{
-			"ariaHidden": "true"
+			"@aria-hidden": "true",
 		},
 	},
-	"four":
+	"4":
 	{
 		"settings":{
-			"ariaHidden": "true"
+			"@aria-hidden": "true",
 		},
 	},
 	
