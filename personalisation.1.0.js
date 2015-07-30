@@ -21,7 +21,7 @@ fourHidden = profile['@aria-importance'].four.settings['@aria-hidden'];*/
     var x = document.querySelectorAll( 'body *' );
 //hide elements according to @aria-importance and user settings in cogaProfile
 for (i = 0; i < x.length; i++) {
-       arImp =  x[i].getAttribute("@aria-importance")
+       arImp =  x[i].getAttribute("aria-importance")
 	   
 ;
 
