@@ -20,6 +20,27 @@ body {background-color:#EAF4FF}
 	vertical-align:central;
 	 border-color:#004080;
 	}
+	
+	
+		.optionButtons { display: block;
+    width: 115px;
+	height:3.25em;
+    font-weight: bold;
+    color: black;
+    background-color: #71B5FF;
+    text-align: center;
+    padding: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size:1.2em;
+	border-style:groove;
+	vertical-align:central;
+	 border-color:#004080;
+	 	font-family:"MS Serif", "New York", serif;
+		border-width:0.2em;
+		float:right;
+	}
+	
 ul {
     list-style-type: none;
     margin: 0;
