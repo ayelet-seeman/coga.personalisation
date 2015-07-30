@@ -29,4 +29,6 @@ ul {
 
 li {float: left;}
 
+[aria-hidden=true] {display:none; visibility:hidden;}
+
 .contactForm { background-color:#71B5FF; width:340px; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
