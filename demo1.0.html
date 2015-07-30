@@ -13,23 +13,25 @@
 <a href="#main-content"></a>
 <div id="nav" role="navigation">
 <ul>
-<li @aria-importance="1" aria.function="homePage" class="test"><a href="" class="navBar">Home</a></li>
-<li @aria-importance="4" @aria-function="aboutUs" class="test"><a href="" class="navBar">About Us</a></li>
-<li @aria-importance="3" @aria-function="services" class="test"><a ="" class="navBar">Services</a></li>
-<li @aria-importance="2" @aria-function="signIn" class="test"><a href="" class="navBar">Sign In</a></li>
-<li @aria-importance="2" @aria-function="products" class="test"><a href="" class="navBar">Mens</a></li>
-<li @aria-importance="2" @aria-function="products" class="test"><a href="" class="navBar">Womens</a></li>
-<li @aria-importance="2" @aria-function="products" class="test"><a href="" class="navBar">Childrens</a></li>
-<li @aria-importance="1" @aria-function="products" class="test"><a href="" class="navBar">Sales</a></li>
-<li @aria-importance="3" @aria-function="contactUs" class="test"><a href="" class="navBar">Contact Us</a></li>
-<li @aria-importance="1" @aria-function="siteMap" class="test"><a href="" class="navBar">Site Map</a></li>
-</ul>
+<li @aria-importance="1" @aria-function="homePage"><a href="" class="navBar">Home</a></li>
+<li @aria-importance="4" @aria-function="aboutUs"><a href="" class="navBar">About Us</a></li>
+<li @aria-importance="3" @aria-function="services"><a ="" class="navBar">Services</a></li>
+<li @aria-importance="1" @aria-function="products"><a href="" class="navBar">Mens</a></li>
+<li @aria-importance="1" @aria-function="products"><a href="" class="navBar">Womens</a></li>
+<li @aria-importance="1" @aria-function="products"><a href="" class="navBar">Childrens</a></li>
+<li @aria-importance="2" @aria-function="products"><a href="" class="navBar">Sales</a></li>
+<li @aria-importance="4" @aria-function="contactUs"><a href="" class="navBar">Contact Us</a></li>
+<li @aria-importance="2" @aria-function="siteMap"><a href="" class="navBar">Site Map</a></li>
+
+<li><button id="more_options" onclick="moreOptions(profile)" class="optionButtons">More Options</button></li>
+<li><button id="less_options" onclick="lessOptions(profile)" @aria-importance="2" class="optionButtons">Less Options</button></li></ul>
 </div>
 <div id="main_content" role="main">
 <h1 @aria-importance="1">Online Clothes Shop</h1>
 <p @aria-importance="1" id="demo">We have the prettiest, most fashionable clothes for the cheapest prices!</p>
 <h2 @aria-importance="2">SALE!!!</h2>
 <p @aria-importance="2">All Children's T shirts for <span aria-numberFree="the price is reduced very significantly">70% off</span>.</p>
+
 </div>
 
 <div @aria-importance="2" class="contactForm" role="form">
@@ -54,11 +56,14 @@ Write your message here</textarea>
 </div>
 </div>
 
+
 <script src="https://rawgit.com/ayelet-seeman/coga.personalisation/Example-JSON-Files-of-User-Settings/profile.1.0.js"></script>
 
 <script src="https://rawgit.com/ayelet-seeman/coga.personalisation/Script-Options/personalisation.1.0.js"> </script>
 
-	  
+<script>
+	var profile = cogaProfile;
+</script>	  
 
 </body>
 </html>
