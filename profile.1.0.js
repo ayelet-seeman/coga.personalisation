@@ -13,7 +13,7 @@
 	"2":
 	{
 		"settings":{
-			"@aria-hidden": "false",		}
+			"@aria-hidden": "true",		}
 	},
 	"3":
 	{
