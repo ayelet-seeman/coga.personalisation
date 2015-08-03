@@ -1,6 +1,6 @@
 # coga.personalisation
 <p>This is a project to help personlisation for any use - including people with learning and memory issues. It is described more at: <a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Easy_Personalization">https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Easy_Personalization</a></p>
-<p>It is made of 3 parts.</p>
+<p>It is made of 4 parts:</p>
 <ol>
 <li>Json files for user setting: <a href="https://github.com/ayelet-seeman/coga.personalisation/tree/JSON-Script">https://github.com/ayelet-seeman/coga.personalisation/tree/JSON-Script</a></li>
 <li>Aria proposal for new syntax: <a href="https://github.com/w3c/coga/blob/master/issue-papers/links-buttons.html">https://github.com/w3c/coga/blob/master/issue-papers/links-buttons.html</a> <br />
