@@ -1,0 +1,215 @@
+{
+    "description": {
+        "use case": "write and send an email message.",
+        "disability": "Mild Intellectual Disability",
+        "age group": "older than millennials",
+        "locationzation": "UK&US",
+        "language": "English"
+
+    },
+
+    "coga.profile": {
+        "coga:name": "USMCI",
+        "coga:desc": "proof of concept for Mild Interllectual Disability to write and send an email message",
+        "coga:local": ["US", "UK"],
+        "@aria-function": [{
+            "function": "compose",
+            "type": ["button"],
+            "name": "compose button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + C",
+                "longdesc": "this button creates a new email message.",
+                "tooltip": "create text",
+                "text": "create text now",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/139286-200.png",
+                    "creator": {
+                        "name": "Daniel Boros",
+                        "url": "https://thenounproject.com/tonetype/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "delete",
+            "type": ["button"],
+            "name": "delete button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + D",
+                "longdesc": "this button delete the emial message.",
+                "tooltip": "delete text",
+                "text": "delete",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/101601-200.png",
+                    "creator": {
+                        "name": "Muneer A.Safiah",
+                        "url": "https://thenounproject.com/mabusafiah/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "next",
+            "type": ["button"],
+            "name": "next button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + N",
+                "longdesc": "this button lets you to go forward",
+                "tooltip": "go forward",
+                "text": "next",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/101601-200.png",
+                    "creator": {
+                        "name": "Creative Stall",
+                        "url": "https://thenounproject.com/creativestall/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "previous",
+            "type": ["button"],
+            "name": "previous button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + P",
+                "longdesc": "this button lead you to go back.",
+                "tooltip": "back back",
+                "text": "previous",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/174879-200.png",
+                    "creator": {
+                        "name": "Creative Stall",
+                        "url": "https://thenounproject.com/creativestall/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "submit",
+            "type": ["button"],
+            "name": "submit button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + S",
+                "longdesc": "this button send text.",
+                "tooltip": "send text",
+                "text": "submit",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/102500-200.png",
+                    "creator": {
+                        "name": "Rodolfo Alvarez",
+                        "url": "https://thenounproject.com/dg.rodolfoalvarez/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "undo",
+            "type": ["button"],
+            "name": "undo button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + U",
+                "longdesc": "this button undo your email writing.",
+                "tooltip": "Back up",
+                "text": "undo",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/14157-200.png",
+                    "creator": {
+                        "name": "Sergey Furtaev",
+                        "url": "https://thenounproject.com/furtaev/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "cancel",
+            "type": ["button"],
+            "name": "cancel button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT + C",
+                "longdesc": "this button allows you to cancel the email.",
+                "tooltip": "Stop",
+                "text": "cancel now",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/15471-200.png",
+                    "creator": {
+                        "name": "Herbert Spencer",
+                        "url": "https://thenounproject.com/hspencer"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }]
+    },
+
+    "@aria-importance": [{
+        "critical": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "med": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "low": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }]
+}
