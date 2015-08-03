@@ -5,6 +5,7 @@
         "coga:local": "US",
         "@aria-function": [{
                 "function": "compose",
+                "type": "button",
                 "name": "compose button",
                 "inherits": "false",
                 "settings": {
@@ -16,9 +17,9 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            }, 
-            {
+            }, {
                 "function": "delete",
+                "type": "button",
                 "name": "delete button",
                 "inherits": "false",
                 "settings": {
@@ -32,6 +33,7 @@
                 }
             }, {
                 "function": "next",
+                "type": "button",
                 "name": "next button",
                 "inherits": "false",
                 "settings": {
@@ -45,6 +47,7 @@
                 }
             }, {
                 "function": "previous",
+                "type": "button",
                 "name": "previous button",
                 "inherits": "false",
                 "settings": {
@@ -58,6 +61,7 @@
                 }
             }, {
                 "function": "submit",
+                "type": "button",
                 "name": "submit button",
                 "inherits": "false",
                 "settings": {
@@ -69,9 +73,9 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            },
-            {
+            }, {
                 "function": "undo",
+                "type": "button",
                 "name": "undo button",
                 "inherits": "false",
                 "settings": {
@@ -85,6 +89,7 @@
                 }
             }, {
                 "function": "cancel",
+                "type": "button",
                 "name": "cancel button",
                 "inherits": "false",
                 "settings": {
@@ -96,11 +101,12 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            }, 
+            },
 
 
             {
                 "function": "add label",
+                "type": "button",
                 "name": "add label button",
                 "inherits": "false",
                 "settings": {
@@ -112,10 +118,11 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            }, 
+            },
 
             {
                 "function": "move",
+                "type": "button",
                 "name": "move button",
                 "inherits": "false",
                 "settings": {
@@ -127,9 +134,9 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            }, 
-            {
+            }, {
                 "function": "view",
+                "type": "button",
                 "name": "view button",
                 "inherits": "false",
                 "settings": {
@@ -143,6 +150,7 @@
                 }
             }, {
                 "function": "save",
+                "type": "button",
                 "name": "save button",
                 "inherits": "false",
                 "settings": {
@@ -154,9 +162,9 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            }, 
-            {
+            }, {
                 "function": "send",
+                "type": "button",
                 "name": "send button",
                 "inherits": "false",
                 "settings": {
@@ -170,6 +178,7 @@
                 }
             }, {
                 "function": "received",
+                "type": "button",
                 "name": "received button",
                 "inherits": "false",
                 "settings": {
@@ -183,6 +192,7 @@
                 }
             }, {
                 "function": "sent",
+                "type": "button",
                 "name": "sent button",
                 "inherits": "false",
                 "settings": {
@@ -196,6 +206,7 @@
                 }
             }, {
                 "function": "edit",
+                "type": "button",
                 "name": "edit button",
                 "inherits": "false",
                 "settings": {
@@ -207,7 +218,204 @@
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
+            }, {
+                "function": "reply",
+                "type": "button",
+                "name": "reply button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button reply current message or comment.",
+                    "tooltip": "reply",
+                    "text": "reply",
+                    "Symbol": "http://cdn1.iconfinder.com/data/icons/material-core/24/reply-all-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "forward",
+                "type": "button",
+                "name": "forward button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to forward current message or comment.",
+                    "tooltip": "forward",
+                    "text": "forward",
+                    "Symbol": "http://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519629-129_ArrowRight-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "my profile",
+                "type": "button",
+                "name": "my profile button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to your profile.",
+                    "tooltip": "my profile",
+                    "text": "my profile",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/48-bubbles/48/30.User-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "upload",
+                "type": "button",
+                "name": "upload button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to upload your work or other files.",
+                    "tooltip": "upload",
+                    "text": "upload",
+                    "Symbol": "http://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519673-179_Upload-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "close",
+                "type": "button",
+                "name": "close button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to close your current work.",
+                    "tooltip": "close",
+                    "text": "close",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "more",
+                "type": "button",
+                "name": "more button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to get more information or functions.",
+                    "tooltip": "more",
+                    "text": "more",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_more_detail-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "calendar",
+                "type": "button",
+                "name": "calendar button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button opens you calender.",
+                    "tooltip": "calendar",
+                    "text": "calendar",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/common_calendar_month_-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "add entry",
+                "type": "button",
+                "name": "add entry button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to add new entry.",
+                    "tooltip": "add entry",
+                    "text": "add entry",
+                    "Symbol": "https://cdn4.iconfinder.com/data/icons/miu/22/circle_add_plus-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "expand",
+                "type": "button",
+                "name": "expand button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button let you to expand current window.",
+                    "tooltip": "expand",
+                    "text": "expand",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/minicons-3/640/fullscreen_black-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "unexpanded",
+                "type": "button",
+                "name": "unexpanded button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button let you to unexpand current window.",
+                    "tooltip": "unexpanded",
+                    "text": "unexpanded",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/minicons-3/640/exit_fullscreen_black-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "open",
+                "type": "button",
+                "name": "open button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button open your work.",
+                    "tooltip": "open",
+                    "text": "open",
+                    "Symbol": "http://cdn1.iconfinder.com/data/icons/hawcons/32/698362-icon-2-mail-envelope-open-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "new",
+                "type": "button",
+                "name": "new button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button creates new work.",
+                    "tooltip": "new",
+                    "text": "new",
+                    "Symbol": "http://cdn0.iconfinder.com/data/icons/gcons-2/23/new10-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "print",
+                "type": "button",
+                "name": "print button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button prints your work.",
+                    "tooltip": "print",
+                    "text": "print",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/common_printer_print_-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "settings",
+                "type": "button",
+                "name": "settings button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button leads you to setting.",
+                    "tooltip": "settings",
+                    "text": "settings",
+                    "Symbol": "http://cdn1.iconfinder.com/data/icons/material-core/18/settings-applications-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
             }
+
         ]
     },
 
