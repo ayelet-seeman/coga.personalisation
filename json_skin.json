@@ -1,0 +1,46 @@
+{
+    "coga.profile": {
+        "coga:name": "USMCI",
+        "coga:desc": "helpful for age appropriate forgetfulness",
+        "coga:local": "US",
+        "@aria-function":[{
+                "function":"save",
+                "name": "save button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + S",
+                    "longdesc": "this button saves your work. Save often and do not lose your work",
+                    "tooltip": "save",
+                    "text": "save now",
+                    "Symbol": "url…",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            },
+            {
+                "function":"delete",
+                "name": "delete button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + S",
+                    "longdesc": "this button saves your work. Save often and do not lose your work",
+                    "tooltip": "delete",
+                    "text": "delete",
+                    "Symbol": "url…",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            },
+            ],
+        },
+
+        "@aria-importance": {
+            "high": {
+                "settings": [{
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;"
+                }]
+            }
+        }
+    }
+}

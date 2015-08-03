@@ -7,3 +7,8 @@ It is made of 3 parts.
 note we are still working on it. more items will come/change
 3. An HTML page that uses some of the new aria syntax
 4. Scripts that a web auther can use or include that read the user settings in the JSON files and adapt the page for  the user needs 
+
+
+
+#JSON-Skin Documentation
+
