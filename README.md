@@ -14,6 +14,44 @@ note we are still working on it. more items will come/change
 
 * Proposed default settings for @aria-importance in JSON script. 
 
-compose(default importance = "critical")
+* compose(default importance = "critical")
 
+### All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/master/issue-papers/links-buttons.html
 
+###Guideline for create JSON profile:
+
+''' 
+    "coga.profile": {
+        "coga:name": "USMCI",
+        "coga:desc": "the description for this profile", 
+        "coga:local": "country code (US)",
+        "@aria-function": [{
+                "function": "function",
+                //"type": ["button"],   //proposed for the functions target widge type.
+                "name": "function name",
+                "inherits": "boolean",
+                "settings": { 
+                    "shortcut": "Shortcut setting for this function",
+                    "longdesc": "description for settings",
+                    "tooltip": "tooltip for display",
+                    "text": "text for display",
+                    "Symbol": "url of symbol",
+                    "@aria-hidden": "boolean",
+                    "css": "css override setting"
+                }
+            }
+        ],
+        "@aria-importance": 
+        [
+            {
+            "critical": { //"critical","high","med","low"
+                    "settings": {
+                        "@aria-hidden": "boolean",
+                        "css": "css override setting"
+                    }
+                }
+            }
+        ]
+    }
+
+'''
