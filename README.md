@@ -12,8 +12,8 @@ note we are still working on it. more items will come/change
 
 #JSON-Skin Documentation
 
-##Proposed default settings for @aria-importance in JSON script.
+* Proposed default settings for @aria-importance in JSON script. 
 
-*compose(default importance = "critical")
+compose(default importance = "critical")
 
 

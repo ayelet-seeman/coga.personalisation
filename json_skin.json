@@ -3,8 +3,146 @@
         "coga:name": "USMCI",
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
-        "@aria-function":[{
-                "function":"save",
+        "@aria-function": [{
+                "function": "compose",
+                "name": "compose button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + C",
+                    "longdesc": "this button writes or creates your new work.",
+                    "tooltip": "compose",
+                    "text": "compose now",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/common_new_edit_compose_-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, 
+            {
+                "function": "delete",
+                "name": "delete button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + D",
+                    "longdesc": "this button delete your work.",
+                    "tooltip": "delete",
+                    "text": "delete",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/23/editor_trash_delete_recycle_bin-64.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "next",
+                "name": "next button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + N",
+                    "longdesc": "this button lead you to move to next item or page.",
+                    "tooltip": "move to next",
+                    "text": "next",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_arrow-forward_next-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "previous",
+                "name": "previous button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + P",
+                    "longdesc": "this button lead you to move to previous item or page.",
+                    "tooltip": "move back to previous",
+                    "text": "previous",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_arrow-back_previous-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "submit",
+                "name": "submit button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + S",
+                    "longdesc": "this button submit your work.",
+                    "tooltip": "submit",
+                    "text": "submit now",
+                    "Symbol": "http://cdn0.iconfinder.com/data/icons/communication-technology/500/button_push-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            },
+            {
+                "function": "undo",
+                "name": "undo button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + U",
+                    "longdesc": "this button undo your latest work.",
+                    "tooltip": "undo",
+                    "text": "undo now",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-undo-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "cancel",
+                "name": "cancel button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "SHIFT + C",
+                    "longdesc": "this button allows you to cancel your current work.",
+                    "tooltip": "cancel",
+                    "text": "cancel now",
+                    "Symbol": "http://cdn1.iconfinder.com/data/icons/squarenav/480/close_square_black-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, 
+
+
+            {
+                "function": "add label",
+                "name": "add label button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button allows you to add label.",
+                    "tooltip": "add label",
+                    "text": "add label",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/48-bubbles/48/05.Tag-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, 
+
+            {
+                "function": "move",
+                "name": "move button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button allows you to move the items.",
+                    "tooltip": "move",
+                    "text": "move",
+                    "Symbol": "http://cdn2.iconfinder.com/data/icons/3_Minicons-Free-_Pack/46/move.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, 
+            {
+                "function": "view",
+                "name": "view button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button allows you to view the items.",
+                    "tooltip": "view",
+                    "text": "view",
+                    "Symbol": "http://cdn0.iconfinder.com/data/icons/faticons-2/29/view6-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "save",
                 "name": "save button",
                 "inherits": "false",
                 "settings": {
@@ -12,35 +150,80 @@
                     "longdesc": "this button saves your work. Save often and do not lose your work",
                     "tooltip": "save",
                     "text": "save now",
-                    "Symbol": "url…",
+                    "Symbol": "http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/32/Save-icon.png",
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            },
+            }, 
             {
-                "function":"delete",
-                "name": "delete button",
+                "function": "send",
+                "name": "send button",
                 "inherits": "false",
                 "settings": {
-                    "shortcut": "SHIFT + S",
-                    "longdesc": "this button saves your work. Save often and do not lose your work",
-                    "tooltip": "delete",
-                    "text": "delete",
-                    "Symbol": "url…",
+                    "shortcut": "",
+                    "longdesc": "this button allows you to send your work.",
+                    "tooltip": "send",
+                    "text": "send now",
+                    "Symbol": "http://cdn3.iconfinder.com/data/icons/faticons/32/send-01-128.png",
                     "@aria-hidden": "false",
                     "css": "visibility:visible;size:2em;border: 5px solid"
                 }
-            },
-            ],
-        },
-
-        "@aria-importance": {
-            "high": {
-                "settings": [{
+            }, {
+                "function": "received",
+                "name": "received button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button gets all received messages or emails.",
+                    "tooltip": "received",
+                    "text": "received",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/meBaze-Freebies/128/recieve-mail.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;"
-                }]
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "sent",
+                "name": "sent button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button gets all sent messages or emails.",
+                    "tooltip": "sent",
+                    "text": "sent",
+                    "Symbol": "http://cdn0.iconfinder.com/data/icons/communication-technology/500/black_envelope-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
+            }, {
+                "function": "edit",
+                "name": "edit button",
+                "inherits": "false",
+                "settings": {
+                    "shortcut": "",
+                    "longdesc": "this button lead you to edit your work.",
+                    "tooltip": "edit",
+                    "text": "edit",
+                    "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/23/common_new_edit_compose-128.png",
+                    "@aria-hidden": "false",
+                    "css": "visibility:visible;size:2em;border: 5px solid"
+                }
             }
+        ]
+    },
+
+    "@aria-importance": [{
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
         }
-    }
+    }, {
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }]
 }
