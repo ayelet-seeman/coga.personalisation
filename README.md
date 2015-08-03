@@ -20,7 +20,7 @@ note we are still working on it. more items will come/change
 
 ###Guideline for create JSON profile:
 
-''' 
+```json
     "coga.profile": {
         "coga:name": "USMCI",
         "coga:desc": "the description for this profile", 
@@ -54,4 +54,4 @@ note we are still working on it. more items will come/change
         ]
     }
 
-'''
+```
