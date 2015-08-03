@@ -42,7 +42,7 @@ note we are still working on it. more items will come/change
                         "name": "creator name",
                         "url": "creator url"
                     },
-                    "lisence": [{
+                    "license": [{
                         "name": "licenses",
                         "url": "licenses url"
                     }]
