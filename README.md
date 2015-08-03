@@ -45,7 +45,7 @@ note we are still working on it. more items will come/change
         "@aria-importance": 
         [
             {
-            "critical ("critical","high","med","low")": { 
+            "critical ('critical','high','med','low')": { 
                     "settings": {
                         "@aria-hidden": "boolean",
                         "css": "css override setting"
