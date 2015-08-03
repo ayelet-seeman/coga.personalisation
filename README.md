@@ -21,13 +21,14 @@ note we are still working on it. more items will come/change
 ###Guideline for create JSON profile:
 
 ```json
+{
     "coga.profile": {
         "coga:name": "USMCI",
         "coga:desc": "the description for this profile", 
         "coga:local": "country code (US)",
         "@aria-function": [{
                 "function": "function",
-                //"type": ["button"],   //proposed for the functions target widge type.
+                "type": ["proposed for the functions target widge type."],   
                 "name": "function name",
                 "inherits": "boolean",
                 "settings": { 
@@ -44,7 +45,7 @@ note we are still working on it. more items will come/change
         "@aria-importance": 
         [
             {
-            "critical": { //"critical","high","med","low"
+            "critical ("critical","high","med","low")": { 
                     "settings": {
                         "@aria-hidden": "boolean",
                         "css": "css override setting"
@@ -53,5 +54,6 @@ note we are still working on it. more items will come/change
             }
         ]
     }
+}
 
 ```
