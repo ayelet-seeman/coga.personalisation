@@ -1,5 +1,4 @@
-{
-    "coga.profile": {
+var cogaProfile = {
         "coga:name": "USMCI",
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
