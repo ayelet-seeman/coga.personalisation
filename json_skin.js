@@ -881,33 +881,33 @@ var cogaProfile = {
         ]
     },
 
-    "@aria-importance": [{
+    "@aria-importance": {
         "critical": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
-            }]
+            }
         }
     }, {
         "high": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
-            }]
+            }
         }
     }, {
         "med": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "true",
                 "css": "visibility:none;"
-            }]
+            }
         }
     }, {
         "low": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "true",
                 "css": "visibility:none;"
-            }]
+            }
         }
-    }]
+    }
 }
