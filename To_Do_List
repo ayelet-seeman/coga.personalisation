@@ -6,6 +6,7 @@
 <li> implement aria button and link functions to add  pannel for extra help with button added to main menu</li>
 <li> parse the the json to identify any attribute as a variable </li>
 <li>identify the cookie</li>
+<li> define and enable cascading</li>
 <li> add later aria properties to the html page </li>
 <li> add later aria properties to the json </li>
 <li> add later aria properties to the script  </li>
