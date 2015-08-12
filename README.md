@@ -8,33 +8,36 @@ note we are still working on it. more items will come/change
 3. An HTML page that uses some of the new aria syntax
 4. Scripts that a web auther can use or include that read the user settings in the JSON files and adapt the page for  the user needs 
 
-#Demo Website ([Online Clothes Shop](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/demo1.0.html))
+##Demo Website ([Online Clothes Shop](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/demo1.0.html))
 
-##button functions:
+###button functions:
 - send email
 - reset contact us form
 - send contact us form
-##links functions:
+###links functions:
 - home
 - contact us
 - site map
 - product
 - services
 
-##form control
+###form control
 - name
 - phone
 - email
 - subject
 - message
 
-#JSON-Skin Documentation
+###Example Profile
+- Example 1 [JSON-profile](https://github.com/ayelet-seeman/coga.personalisation/blob/JSON-Script/profile_exmaple_1.json)
+- Example 2 [JSON-profile](https://github.com/ayelet-seeman/coga.personalisation/blob/JSON-Script/profile_exmaple_2.json)
+
+##JSON-Skin Documentation
 
 * Proposed default settings for @aria-importance in JSON script. 
-
 * compose(default importance = "critical")
 
-### All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/master/issue-papers/links-buttons.html
+All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/master/issue-papers/links-buttons.html
 
 ###Guideline for creating the JSON profile:
 
