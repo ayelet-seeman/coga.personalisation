@@ -1,5 +1,4 @@
-{
-    "coga.profile": {
+var cogaProfile = {
         "coga:name": "USMCI",
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
@@ -882,33 +881,33 @@
         ]
     },
 
-    "@aria-importance": [{
+    "@aria-importance": {
         "critical": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
-            }]
+            }
         }
     }, {
         "high": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
-            }]
+            }
         }
     }, {
         "med": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "true",
                 "css": "visibility:none;"
-            }]
+            }
         }
     }, {
         "low": {
-            "settings": [{
+            "settings": {
                 "@aria-hidden": "true",
                 "css": "visibility:none;"
-            }]
+            }
         }
-    }]
+    }
 }
