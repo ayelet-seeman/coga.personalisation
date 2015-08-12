@@ -1,0 +1,348 @@
+{
+    "coga.profile": {
+        "coga:name": "USMCI",
+        "coga:desc": "helpful for age appropriate forgetfulness",
+        "coga:local": "US",
+        "@aria-function": [{
+            "function": "send",
+            "type": ["button"],
+            "name": "send button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+S",
+                "longdesc": "this button allows you to send your the message.",
+                "tooltip": "send",
+                "text": "send now",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/102500-200.png",
+                    "creator": {
+                        "name": "Rodolfo Alvarez",
+                        "url": "https://thenounproject.com/dg.rodolfoalvarez/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em; border: 5px solid"
+            }
+        }, {
+            "function": "reset",
+            "type": ["button"],
+            "name": "reset button",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+R",
+                "longdesc": "this button allows you to reset of the feilds in your the message.",
+                "tooltip": "reset",
+                "text": "reset now",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/179333-200.png",
+                    "creator": {
+                        "name": "Daniel Simon",
+                        "url": "https://thenounproject.com/danielsimon/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em; border: 5px solid"
+            }
+        }, {
+            "function": "more",
+            "type": ["link"],
+            "name": "more option link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this link leads you to get more options.",
+                "tooltip": "more options",
+                "text": "more options",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/89800-200.png",
+                    "creator": {
+                        "name": "Tahsin Tahil",
+                        "url": "https://thenounproject.com/tahiltahsin/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "less",
+            "type": ["link"],
+            "name": "less option link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this link leads you to get less options.",
+                "tooltip": "less",
+                "text": "less options",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/97264-200.png",
+                    "creator": {
+                        "name": "Yaroslav Samoilov",
+                        "url": "https://thenounproject.com/Yaosamo/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "home",
+            "type": ["link"],
+            "name": "home link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the home page.",
+                "tooltip": "home",
+                "text": "home",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/37265-200.png",
+                    "creator": {
+                        "name": "Danilo Celestino de Castro",
+                        "url": "https://thenounproject.com/daniloegod/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "contact us",
+            "type": ["link"],
+            "name": "contact us link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+C",
+                "longdesc": "this links to the contact us page.",
+                "tooltip": "contact us",
+                "text": "contact us",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/16330-200.png",
+                    "creator": {
+                        "name": "Martha Ormiston",
+                        "url": "https://thenounproject.com/mrfa/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "site map",
+            "type": ["link"],
+            "name": "site map link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+M",
+                "longdesc": "this links to the site map page.",
+                "tooltip": "site map",
+                "text": "site map",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/75035-200.png",
+                    "creator": {
+                        "name": "Sathish Selladurai",
+                        "url": "https://thenounproject.com/sathishs/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "help",
+            "type": ["link"],
+            "name": "help link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+P",
+                "longdesc": "this links to the help page.",
+                "tooltip": "help",
+                "text": "help",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/89672-200.png",
+                    "creator": {
+                        "name": "Consumer Financial Protection Bureau",
+                        "url": "https://thenounproject.com/cfpb_minicons/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "product",
+            "type": ["link"],
+            "name": "product link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this links to the product.",
+                "tooltip": "product",
+                "text": "product",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/125971-200.png",
+                    "creator": {
+                        "name": "BraveBros.",
+                        "url": "https://thenounproject.com/bravebros/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "services",
+            "type": ["link"],
+            "name": "services link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this links to the services.",
+                "tooltip": "services",
+                "text": "services",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/32455-200.png",
+                    "creator": {
+                        "name": "Christopher Smith",
+                        "url": "https://thenounproject.com/oneafternine/"
+                    },
+                    "license": [{
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    }]
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "name",
+            "type": ["form control"],
+            "name": "name form control",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this is the form control for name field.",
+                "tooltip": "name",
+                "text": "name",
+                "Symbol": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "email",
+            "type": ["form control"],
+            "name": "email form control",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this is the form control for email field.",
+                "tooltip": "email",
+                "text": "email",
+                "Symbol": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "subject",
+            "type": ["form control"],
+            "name": "subject form control",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this is the form control for subject field.",
+                "tooltip": "subject",
+                "text": "subject",
+                "Symbol": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "message",
+            "type": ["form control"],
+            "name": "message form control",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this is the form control for message field.",
+                "tooltip": "message",
+                "text": "message",
+                "Symbol": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }, {
+            "function": "phone",
+            "type": ["form control"],
+            "name": "phone form control",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this is the form control for phone field.",
+                "tooltip": "phone",
+                "text": "phone",
+                "Symbol": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;size:2em;border: 5px solid"
+            }
+        }]
+    },
+
+    "@aria-importance": [{
+        "critical": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "med": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "low": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }]
+}

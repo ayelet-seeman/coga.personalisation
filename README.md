@@ -8,7 +8,25 @@ note we are still working on it. more items will come/change
 3. An HTML page that uses some of the new aria syntax
 4. Scripts that a web auther can use or include that read the user settings in the JSON files and adapt the page for  the user needs 
 
+#Demo Website ([Online Clothes Shop](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/demo1.0.html))
 
+##button functions:
+- send email
+- reset contact us form
+- send contact us form
+##links functions:
+- home
+- contact us
+- site map
+- product
+- services
+
+##form control
+- name
+- phone
+- email
+- subject
+- message
 
 #JSON-Skin Documentation
 
