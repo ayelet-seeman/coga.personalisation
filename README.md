@@ -1,4 +1,4 @@
-# coga.personalisation
+## coga.personalisation
 This is a project to help personlisation for any use - including people with learning and memory issues. It is described more at
 https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Easy_Personalization
 It is made of 3 parts.
@@ -7,31 +7,6 @@ It is made of 3 parts.
 note we are still working on it. more items will come/change
 3. An HTML page that uses some of the new aria syntax
 4. Scripts that a web auther can use or include that read the user settings in the JSON files and adapt the page for  the user needs 
-
-##Demo Website ([Online Clothes Shop](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/demo1.0.html))
-
-###button functions:
-- send email
-- reset contact us form
-- send contact us form
-
-###links functions:
-- home
-- contact us
-- site map
-- product
-- services
-
-###form control
-- name
-- phone
-- email
-- subject
-- message
-
-###Example Profile
-- Example 1 [JSON-profile](https://github.com/ayelet-seeman/coga.personalisation/blob/JSON-Script/profile_exmaple_1.json)
-- Example 2 [JSON-profile](https://github.com/ayelet-seeman/coga.personalisation/blob/JSON-Script/profile_exmaple_2.json)
 
 ##JSON-Skin Documentation
 
@@ -86,3 +61,29 @@ All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/m
 }
 
 ```
+
+##Demo Website ([Online Clothes Shop](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/demo1.0.html))
+
+###button functions:
+- send email
+- reset contact us form
+- send contact us form
+
+###links functions:
+- home
+- contact us
+- site map
+- product
+- services
+
+###form control
+- name
+- phone
+- email
+- subject
+- message
+
+###Example Profile
+- Example 1 [JSON-profile](https://github.com/ayelet-seeman/coga.personalisation/blob/JSON-Script/profile_exmaple_1.json)
+- Example 2 [JSON-profile](https://github.com/ayelet-seeman/coga.personalisation/blob/JSON-Script/profile_exmaple_2.json)
+
