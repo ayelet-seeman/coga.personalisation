@@ -1,13 +1,16 @@
 /* name: personalisation1.0.js
 author: Ayelet Seeman
-functions: personaliseImportance(cogaProfile), moreOptions(cogaProfile), lessOptions(cogaProfile), personaliseFunction(cogaProfile), personaliseForm (elem, profileFunction)
-input: cogaProfile (Json file in accordance with https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/README.md) 
+functions: loadJSON(callback) personaliseImportance(cogaProfile), moreOptions(cogaProfile), lessOptions(cogaProfile), personaliseFunction(cogaProfile), personaliseForm (elem, profileFunction)
 output: personalises page according to user settings in JSON profile
 */
   
 
    
-  
+  /* function-name: personaliseImportance
+author: Ayelet Seeman
+input:  callback
+output: cogaProfile (Json file in accordance with https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/README.md)
+*/
   function loadJSON(callback) { 
   var xobj;
   if (window.XMLHttpRequest)
@@ -32,7 +35,8 @@ else
  loadJSON(function(response) {
   // Parse JSON string into object
     var cogaProfile = JSON.parse(response);
-    document.getElementById("demo").innerHTML+="<br>"+cogaProfile.hello+"<br>";
+ window.profile= cogaProfile;
+ //personalise page
 	personaliseImportance(cogaProfile);
 personaliseFunction(cogaProfile);
  });
@@ -109,7 +113,7 @@ function moreOptions(cogaProfile)
 			 
 	personaliseImportance(profile);
 	if (temp == 1) document.getElementById("more_options").setAttribute("aria-hidden", "true");	 
-
+        window.profile=profile;
 	
 }
 
@@ -134,6 +138,7 @@ function lessOptions(cogaProfile)
 				}
 			 
 	personaliseImportance(profile);
+	window.profile=profile;
 }
 
 
