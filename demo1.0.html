@@ -7,54 +7,50 @@
 
 
 </head>
-
 <body>
 <div lang="en">
 <a href="#main-content"></a>
 <div id="nav" role="navigation">
 <ul>
-<li aria-importance="1" aria-function="homePage"><a href="" class="navBar">Home</a></li>
-<li aria-importance="4" aria-function="aboutUs"><a href="" class="navBar">About Us</a></li>
-<li aria-importance="3" aria-function="services"><a ="" class="navBar">Services</a></li>
-<li aria-importance="1" aria-function="products"><a href="" class="navBar">Mens</a></li>
-<li aria-importance="1" aria-function="products"><a href="" class="navBar">Womens</a></li>
-<li aria-importance="1" aria-function="products"><a href="" class="navBar">Childrens</a></li>
-<li aria-importance="2" aria-function="products"><a href="" class="navBar">Sales</a></li>
-<li aria-importance="4" aria-function="contactUs"><a href="" class="navBar">Contact Us</a></li>
-<li aria-importance="2" aria-function="siteMap"><a href="" class="navBar">Site Map</a></li>
+<li ><a aria-importance="critical" aria-function="home" href="" class="navBar"> Ho</a></li>
+<li  ><a aria-function="about us" aria-importance="low" href="" class="navBar">Abo Us</a></li>
+<li ><a ="" aria-importance="med" aria-function="services" class="navBar">Seces</a></li>
+<li ><a href="" class="navBar" aria-importance="critical" aria-function="products">Mens</a></li>
+<li ><a href="" class="navBar" aria-importance="critical" aria-function="products">Womens</a></li>
+<li ><a href="" class="navBar" aria-importance="critical" aria-function="products">Childrens</a></li>
+<li ><a href="" class="navBar" aria-importance="high" aria-function="products">Sales</a></li>
+<li ><a href="" class="navBar" aria-importance="low" aria-function="contact us" aria-hidden="true">Contact Us</a></li>
+<li ><a href="" class="navBar" aria-importance="high" aria-function="site map">Site Map</a></li>
 
-<li><button id="more_options" onclick="moreOptions(profile)" class="optionButtons">More Options</button></li>
-<li><button id="less_options" onclick="lessOptions(profile)" aria-importance="2" class="optionButtons">Less Options</button></li></ul>
+<li><button id="more_options" onclick="moreOptions(profile)" aria-importance="critical" class="optionButtons">More Options</button></li>
+<li><button id="less_options" onclick="lessOptions(profile)" aria-importance="high" class="optionButtons">Less Options</button></li></ul>
 </div>
 <div id="main_content" role="main">
-<h1 aria-importance="1">Online Clothes Shop</h1>
-<p aria-importance="1" id="demo">We have the prettiest, most fashionable clothes for the cheapest prices!</p>
-<h2 aria-importance="2">SALE!!!</h2>
-<p aria-importance="2">All Children's T shirts for <span aria-numberFree="the price is reduced very significantly">70% off</span>.</p>
-<p aria-importance="1">For more information about the demo page, see: <a href="https://github.com/ayelet-seeman/coga.personalisation/blob/master/README.md">https://github.com/ayelet-seeman/coga.personalisation/blob/master/README.md</a></p>
-
+<h1 aria-importance="critical">Online Clothes Shop</h1>
+<p aria-importance="critical" id="demo">We have the prettiest, most fashionable clothes for the cheapest prices!</p>
+<h2 aria-importance="high">SALE!!!</h2>
+<p aria-importance="high">All Children's T shirts for 70% off.</p>
 </div>
 
-<div aria-importance="2" class="contactForm" role="form">
+<div aria-importance="high" class="contactForm" role="form">
 
 <h2> Contact Us</h2>
 <form  action="MAILTO:ayelet.projects1@gmail.com" method="post" enctype="text/plain">
-<label aria-importance="3" aria-function="name"> Name:</label><span aria-importance="3"><br></span>
-<input aria-importance="3" type="text" name="name" value="your name"><span aria-importance="3"><br></span>
-<label aria-importance="2" aria-function="mail" >E-mail:</label><span aria-importance="2"><br></span>
-<input aria-importance="2" type="text" name="mail" value="your email"><span aria-importance="2"><br></span>
-<label aria-importance="4" >Phone Number:</label><span aria-importance="4"><br></span>
-<input type="text" aria-importance="4"  name="phone" value="your phone number"><span aria-importance="4"><br></span>
-<label aria-importance="3"> Subject:</label><span aria-importance="3"><br></span>
-<input aria-importance="3" type="text" name="subject" aria-importance="3" value="your subject" size="39px"><span aria-importance="1"><br></span>
-<label aria-importance="2">Message:</label><span aria-importance="2"><br></span>
-<textarea aria-importance="2" type="text" name="message" rows="10" cols="40">
+<label aria-importance="med" aria-function="name"> Name:</label><span aria-importance="med"><br></span>
+<input aria-importance="med" type="text" name="name" value="your name"><span aria-importance="med"><br></span>
+<label aria-importance="high" aria-function="mail" >E-mail:</label><span aria-importance="high"><br></span>
+<input aria-importance="high" type="text" name="mail" value="your email"><span aria-importance="high"><br></span>
+<label aria-importance="low" >Phone Number:</label><span aria-importance="low"><br></span>
+<input type="text" aria-importance="low"  name="phone" value="your phone number"><span aria-importance="low"><br></span>
+<label aria-importance="med"> Subject:</label><span aria-importance="med"><br></span>
+<input aria-importance="med" type="text" name="subject"  value="your subject" size="39px"  ><span aria-importance="critical"><br></span>
+<label aria-importance="high">Message:</label><span aria-importance="high"><br></span>
+<textarea aria-importance="high" type="text" name="message" rows="10" cols="40">
 Write your message here</textarea>
 <br>
-<input aria-importance="2" aria-function = "submit" type="submit" value="Send">
-<input  type="reset" aria-importance="4" aria-function = "reset" value="Reset">
+<input aria-importance="high" aria-function = "submit"  type="submit"   value="Suit">
+<input  type="reset" aria-importance="low" aria-function = "reset" value="Reset">
 </form>
-
 </div>
 </div>
 
