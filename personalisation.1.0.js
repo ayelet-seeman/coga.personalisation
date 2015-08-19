@@ -5,11 +5,7 @@ input: cogaProfile (Json file in accordance with https://rawgit.com/ayelet-seema
 output: personalises page according to user settings in JSON profile
 */
   
- /* var scr = document.createElement("script");
-  scr.type = "text/javascript";
-scr.src = "file:///C:/Users/jgjy/Documents/coga/personalisation/demo/HelloWorld.js";
 
-  */
    
   
   function loadJSON(callback) { 
