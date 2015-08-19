@@ -10,7 +10,7 @@ output: personalises page according to user settings in JSON profile
 scr.src = "file:///C:/Users/jgjy/Documents/coga/personalisation/demo/HelloWorld.js";
 
   */
-   document.getElementById("demo").innerHTML+="<br>scripts loaded<br>";
+   
   
   function loadJSON(callback) { 
   var xobj;
@@ -36,6 +36,7 @@ else
  loadJSON(function(response) {
   // Parse JSON string into object
     var cogaProfile = JSON.parse(response);
+    document.getElementById("demo").innerHTML+="<br>"+cogaProfile.hello+"<br>";
 	personaliseImportance(cogaProfile);
 personaliseFunction(cogaProfile);
  });
