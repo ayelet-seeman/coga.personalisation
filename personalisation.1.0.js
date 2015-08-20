@@ -187,7 +187,7 @@ function personaliseFunction(profile)
 		{
 			 	for (j=0; j<numFunc; j++)
 		{
-			if (arFunc== profile['@aria-function'][j].function_name)
+			if (arFunc== profile['@aria-function'][j].function)
 			{
 			//check if element needs to be personalised differently
 			if (x[i].tagName=="INPUT") 
