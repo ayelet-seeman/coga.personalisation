@@ -43,7 +43,7 @@ note we are still working on it. more items will come/change</li>
 Alternatives include using JSONP and using a proxy.</li>
 <li> Using CORS with content we don't have control over could be a security issue.</li></ol>
 <li>Adding an icon to a form element doesn't work on firefox.</li>
-<li>Adding an icon to a form element on google chrome changes it color slightly.</li>
+<li>Adding an icon to a form element on google chrome changes it's color slightly.</li>
 </ol>
 
 ##JSON-Skin Documentation
