@@ -8,10 +8,10 @@ note we are still working on it. more items will come/change</li>
 <li>An HTML page that uses some of the new aria syntax: <a href="https://github.com/ayelet-seeman/coga.personalisation/tree/ExampleWebPage/">https://github.com/ayelet-seeman/coga.personalisation/tree/ExampleWebPage/</a></li>
 <li>Scripts that a web auther can use or include that read the user settings in the JSON files and adapt the page for  the user needs: <a href="https://github.com/ayelet-seeman/coga.personalisation/tree/Script-Options">https://github.com/ayelet-seeman/coga.personalisation/tree/Script-Options</a></li></ol>
 
-##JavaScript Documentation
+<h2>JavaScript Documentation</h2>
 <p>Scripts that personalise page according to elements' aria-importance & aria-function attributes and user settings in the JSON skin.</p> 
 
-##Functions
+<h2>Functions</h2>
 <p> <b>moreOptions(profile)</b> display elements with a lower aria-importance attribute</p>
 <p><b>lessOptions(profilele)</b> hide elements with a higher aria-importance attribute</p>
 <p><b>personalisePage(profile)</b> personalise page according to the aria-importance attribute, aria-function attribute, and user settings in JSON skin:
@@ -36,7 +36,7 @@ note we are still working on it. more items will come/change</li>
 
 
 
-####Issues
+<h3>Issues</h3>
 <ol>
 <li> The JSON skins are loaded using CORS.</li>
 <ol><li>It isn't supported in all browsersers.<br>
