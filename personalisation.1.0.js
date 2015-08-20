@@ -59,7 +59,7 @@ function makeCorsRequest(url) {
 
 //a JSON skin compliant with:
 //https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/README.md
-var url = 'https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/skin1.0.json';
+var url = 'https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/json_skin.js';
 
 makeCorsRequest(url);
 
