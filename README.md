@@ -9,7 +9,7 @@ note we are still working on it. more items will come/change</li>
 <li>Scripts that a web auther can use or include that read the user settings in the JSON files and adapt the page for  the user needs: <a href="https://github.com/ayelet-seeman/coga.personalisation/tree/Script-Options">https://github.com/ayelet-seeman/coga.personalisation/tree/Script-Options</a></li></ol>
 
 ##JavaScript Documentation
-*  Scripts that personalise page according to elements' aria-importance & aria-function attributes and user settings in the JSON skin. 
+<p>Scripts that personalise page according to elements' aria-importance & aria-function attributes and user settings in the JSON skin.</p> 
 
 ##Functions
 <p> <b>moreOptions(profile)</b> display elements with a lower aria-importance attribute</p>
