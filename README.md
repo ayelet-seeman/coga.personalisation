@@ -19,10 +19,6 @@ All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/m
 
 ```json
 {
-    "coga.profile": {
-        "coga:name": "USMCI",
-        "coga:desc": "the description for this profile", 
-        "coga:local": "country code (US)",
         "@aria-function": [{
                 "function": "function",
                 "type": ["proposed for the functions target widge type."],   
@@ -33,31 +29,31 @@ All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/m
                     "longdesc": "description for settings",
                     "tooltip": "tooltip for display",
                     "text": "text for display",
-                    "Symbol": [{
+                    "Symbol": {
                     "url": "url symbol",
                     "creator": {
                         "name": "creator name",
                         "url": "creator url"
                     },
-                    "license": [{
+                    "license": {
                         "name": "licenses",
                         "url": "licenses url"
-                    }]
-                }],
+                    }
+                },
                     "@aria-hidden": "boolean",
                     "css": "css override setting"
                 }
             }],
         "@aria-importance": 
-        [{
+        {
             "critical ('critical','high','med','low')": { 
                     "settings": {
                         "@aria-hidden": "boolean",
                         "css": "css override setting"
                     }
                 }
-        }]
-    }
+        }
+    
 }
 
 ```
