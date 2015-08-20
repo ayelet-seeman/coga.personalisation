@@ -887,22 +887,22 @@
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
             }
-        }
-    }, 
+        },
+   
         "high": {
             "settings": {
                 "@aria-hidden": "false",
                 "css": "visibility:visible;"
             }
-        }
-    }, {
+        },
+     {
         "med": {
             "settings": {
                 "@aria-hidden": "true",
                 "css": "visibility:none;"
             }
-        }
-    }, {
+        }, 
+        
         "low": {
             "settings": {
                 "@aria-hidden": "true",
