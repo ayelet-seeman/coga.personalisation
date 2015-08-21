@@ -15,8 +15,14 @@
                     "text": "compose now",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/common_new_edit_compose_-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
-                }
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
+                } 
             }, {
                 "function": "delete",
                 "type": ["button"],
@@ -29,7 +35,13 @@
                     "text": "delete",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/23/editor_trash_delete_recycle_bin-64.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "next",
@@ -43,7 +55,13 @@
                     "text": "next",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_arrow-forward_next-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "previous",
@@ -57,7 +75,13 @@
                     "text": "previous",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_arrow-back_previous-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "submit",
@@ -71,7 +95,13 @@
                     "text": "submit now",
                     "Symbol": "http://cdn0.iconfinder.com/data/icons/communication-technology/500/button_push-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "undo",
@@ -85,7 +115,13 @@
                     "text": "undo now",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-undo-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "cancel",
@@ -99,7 +135,13 @@
                     "text": "cancel now",
                     "Symbol": "http://cdn1.iconfinder.com/data/icons/squarenav/480/close_square_black-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             },
 
@@ -116,7 +158,13 @@
                     "text": "add label",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/48-bubbles/48/05.Tag-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             },
 
@@ -132,7 +180,13 @@
                     "text": "move",
                     "Symbol": "http://cdn2.iconfinder.com/data/icons/3_Minicons-Free-_Pack/46/move.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "view",
@@ -146,7 +200,13 @@
                     "text": "view",
                     "Symbol": "http://cdn0.iconfinder.com/data/icons/faticons-2/29/view6-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "save",
@@ -160,7 +220,13 @@
                     "text": "save now",
                     "Symbol": "http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/32/Save-icon.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "send",
@@ -174,7 +240,13 @@
                     "text": "send now",
                     "Symbol": "http://cdn3.iconfinder.com/data/icons/faticons/32/send-01-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "received",
@@ -188,7 +260,13 @@
                     "text": "received",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/meBaze-Freebies/128/recieve-mail.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "sent",
@@ -202,7 +280,13 @@
                     "text": "sent",
                     "Symbol": "http://cdn0.iconfinder.com/data/icons/communication-technology/500/black_envelope-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "edit",
@@ -216,7 +300,13 @@
                     "text": "edit",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/23/common_new_edit_compose-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "reply",
@@ -230,7 +320,13 @@
                     "text": "reply",
                     "Symbol": "http://cdn1.iconfinder.com/data/icons/material-core/24/reply-all-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "forward",
@@ -244,7 +340,13 @@
                     "text": "forward",
                     "Symbol": "http://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519629-129_ArrowRight-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "my profile",
@@ -258,7 +360,13 @@
                     "text": "my profile",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/48-bubbles/48/30.User-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "upload",
@@ -272,7 +380,13 @@
                     "text": "upload",
                     "Symbol": "http://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519673-179_Upload-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "close",
@@ -286,7 +400,13 @@
                     "text": "close",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "more",
@@ -300,7 +420,13 @@
                     "text": "more",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/circle_more_detail-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "calendar",
@@ -314,7 +440,13 @@
                     "text": "calendar",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/common_calendar_month_-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "add entry",
@@ -328,7 +460,13 @@
                     "text": "add entry",
                     "Symbol": "https://cdn4.iconfinder.com/data/icons/miu/22/circle_add_plus-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "expand",
@@ -342,7 +480,13 @@
                     "text": "expand",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/minicons-3/640/fullscreen_black-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "unexpanded",
@@ -356,7 +500,13 @@
                     "text": "unexpanded",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/minicons-3/640/exit_fullscreen_black-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "open",
@@ -370,7 +520,13 @@
                     "text": "open",
                     "Symbol": "http://cdn1.iconfinder.com/data/icons/hawcons/32/698362-icon-2-mail-envelope-open-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "new",
@@ -384,7 +540,13 @@
                     "text": "new",
                     "Symbol": "http://cdn0.iconfinder.com/data/icons/gcons-2/23/new10-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "print",
@@ -398,7 +560,13 @@
                     "text": "print",
                     "Symbol": "http://cdn4.iconfinder.com/data/icons/miu/22/common_printer_print_-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "settings",
@@ -412,7 +580,13 @@
                     "text": "settings",
                     "Symbol": "http://cdn1.iconfinder.com/data/icons/material-core/18/settings-applications-128.png",
                     "@aria-hidden": "false",
-                    "css": "visibility:visible;size:2em;border: 5px solid"
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }
 
@@ -428,7 +602,15 @@
                     "text": "home",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+					]
+						
+					
                 }
             }, {
                 "function": "contact us",
@@ -442,7 +624,13 @@
                     "text": "contact us",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "our phone",
@@ -456,7 +644,13 @@
                     "text": "our phone",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "our email",
@@ -470,7 +664,13 @@
                     "text": "our email",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "site map",
@@ -484,7 +684,13 @@
                     "text": "site map",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "help",
@@ -498,7 +704,13 @@
                     "text": "help",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "about us",
@@ -512,7 +724,13 @@
                     "text": "about us",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "terms",
@@ -526,7 +744,13 @@
                     "text": "terms",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "tools",
@@ -540,7 +764,13 @@
                     "text": "tools",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "comment",
@@ -554,7 +784,13 @@
                     "text": "comment",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "language",
@@ -568,7 +804,13 @@
                     "text": "language",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "sign in",
@@ -582,7 +824,13 @@
                     "text": "sign in",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "sign up",
@@ -596,7 +844,13 @@
                     "text": "sign up",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "product",
@@ -610,7 +864,13 @@
                     "text": "oproduct",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "services",
@@ -624,7 +884,13 @@
                     "text": "services",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "social",
@@ -638,7 +904,13 @@
                     "text": "social",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "post address",
@@ -652,7 +924,13 @@
                     "text": "post address",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "first name",
@@ -666,7 +944,13 @@
                     "text": "first name",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "family name",
@@ -680,7 +964,13 @@
                     "text": "family name",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "initial",
@@ -694,7 +984,13 @@
                     "text": "initial",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "phone",
@@ -708,7 +1004,13 @@
                     "text": "phone",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "cell phone",
@@ -722,7 +1024,13 @@
                     "text": "cell phone",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "address",
@@ -736,7 +1044,13 @@
                     "text": "address",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "city",
@@ -750,7 +1064,13 @@
                     "text": "city",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "state",
@@ -764,7 +1084,13 @@
                     "text": "state",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "country",
@@ -778,7 +1104,13 @@
                     "text": "country",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "post code",
@@ -792,7 +1124,13 @@
                     "text": "post code",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "credit card",
@@ -806,7 +1144,13 @@
                     "text": "credit card",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "expiry date",
@@ -820,7 +1164,13 @@
                     "text": "expiry date",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "birth date",
@@ -834,7 +1184,13 @@
                     "text": "birth date",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "month",
@@ -848,7 +1204,13 @@
                     "text": "month",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "year",
@@ -862,7 +1224,13 @@
                     "text": "year",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }, {
                 "function": "day",
@@ -876,7 +1244,13 @@
                     "text": "day",
                     "Symbol": "",
                     "@aria-hidden": "false",
-                    "css": ""
+                    "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
                 }
             }
         ],
@@ -885,28 +1259,50 @@
         "critical": {
             "settings": {
                 "@aria-hidden": "false",
-                "css": "visibility:visible;"
+                "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
             }
         },
    
         "high": {
             "settings": {
                 "@aria-hidden": "false",
-                "css": "visibility:visible;"
+                "css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
             }
         },     
 
         "med": {
             "settings": {
-                "@aria-hidden": "true",
-                "css": "visibility:none;"
+                "@aria-hidden": "true","css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
             }
         }, 
         
         "low": {
             "settings": {
-                "@aria-hidden": "true",
-                "css": "visibility:none;"
+                "@aria-hidden": "true","css": [
+					{
+						"propertyName":"color",
+						"value":"red"
+					
+					}
+]
             }
         }
     }
