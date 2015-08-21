@@ -4,7 +4,7 @@
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
         "@aria-function": [{
-                "function": "compose",
+                "offName": "compose",
                 "type": ["button"],
                 "name": "compose button",
                 "inherits": "false",
@@ -24,7 +24,7 @@
 ]
                 } 
             }, {
-                "function": "delete",
+                "offName": "delete",
                 "type": ["button"],
                 "name": "delete button",
                 "inherits": "false",
@@ -44,7 +44,7 @@
 ]
                 }
             }, {
-                "function": "next",
+                "offName": "next",
                 "type": ["button"],
                 "name": "next button",
                 "inherits": "false",
@@ -64,7 +64,7 @@
 ]
                 }
             }, {
-                "function": "previous",
+                "offName": "previous",
                 "type": ["button"],
                 "name": "previous button",
                 "inherits": "false",
@@ -84,7 +84,7 @@
 ]
                 }
             }, {
-                "function": "submit",
+                "offName": "submit",
                 "type": ["button"],
                 "name": "submit button",
                 "inherits": "false",
@@ -104,7 +104,7 @@
 ]
                 }
             }, {
-                "function": "undo",
+                "offName": "undo",
                 "type": ["button"],
                 "name": "undo button",
                 "inherits": "false",
@@ -124,7 +124,7 @@
 ]
                 }
             }, {
-                "function": "cancel",
+                "offName": "cancel",
                 "type": ["button"],
                 "name": "cancel button",
                 "inherits": "false",
@@ -147,7 +147,7 @@
 
 
             {
-                "function": "add label",
+                "offName": "add label",
                 "type": ["button"],
                 "name": "add label button",
                 "inherits": "false",
@@ -169,7 +169,7 @@
             },
 
             {
-                "function": "move",
+                "offName": "move",
                 "type": ["button"],
                 "name": "move button",
                 "inherits": "false",
@@ -189,7 +189,7 @@
 ]
                 }
             }, {
-                "function": "view",
+                "offName": "view",
                 "type": ["button"],
                 "name": "view button",
                 "inherits": "false",
@@ -209,7 +209,7 @@
 ]
                 }
             }, {
-                "function": "save",
+                "offName": "save",
                 "type": ["button"],
                 "name": "save button",
                 "inherits": "false",
@@ -229,7 +229,7 @@
 ]
                 }
             }, {
-                "function": "send",
+                "offName": "send",
                 "type": ["button"],
                 "name": "send button",
                 "inherits": "false",
@@ -249,7 +249,7 @@
 ]
                 }
             }, {
-                "function": "received",
+                "offName": "received",
                 "type": ["button"],
                 "name": "received button",
                 "inherits": "false",
@@ -269,7 +269,7 @@
 ]
                 }
             }, {
-                "function": "sent",
+                "offName": "sent",
                 "type": ["button"],
                 "name": "sent button",
                 "inherits": "false",
@@ -289,7 +289,7 @@
 ]
                 }
             }, {
-                "function": "edit",
+                "offName": "edit",
                 "type": ["button"],
                 "name": "edit button",
                 "inherits": "false",
@@ -309,7 +309,7 @@
 ]
                 }
             }, {
-                "function": "reply",
+                "offName": "reply",
                 "type": ["button"],
                 "name": "reply button",
                 "inherits": "false",
@@ -329,7 +329,7 @@
 ]
                 }
             }, {
-                "function": "forward",
+                "offName": "forward",
                 "type": ["button"],
                 "name": "forward button",
                 "inherits": "false",
@@ -349,7 +349,7 @@
 ]
                 }
             }, {
-                "function": "my profile",
+                "offName": "my profile",
                 "type": ["button"],
                 "name": "my profile button",
                 "inherits": "false",
@@ -369,7 +369,7 @@
 ]
                 }
             }, {
-                "function": "upload",
+                "offName": "upload",
                 "type": ["button"],
                 "name": "upload button",
                 "inherits": "false",
@@ -389,7 +389,7 @@
 ]
                 }
             }, {
-                "function": "close",
+                "offName": "close",
                 "type": ["button"],
                 "name": "close button",
                 "inherits": "false",
@@ -409,7 +409,7 @@
 ]
                 }
             }, {
-                "function": "more",
+                "offName": "more",
                 "type": ["button"],
                 "name": "more button",
                 "inherits": "false",
@@ -429,7 +429,7 @@
 ]
                 }
             }, {
-                "function": "calendar",
+                "offName": "calendar",
                 "type": ["button"],
                 "name": "calendar button",
                 "inherits": "false",
@@ -449,7 +449,7 @@
 ]
                 }
             }, {
-                "function": "add entry",
+                "offName": "add entry",
                 "type": ["button"],
                 "name": "add entry button",
                 "inherits": "false",
@@ -469,7 +469,7 @@
 ]
                 }
             }, {
-                "function": "expand",
+                "offName": "expand",
                 "type": ["button"],
                 "name": "expand button",
                 "inherits": "false",
@@ -489,7 +489,7 @@
 ]
                 }
             }, {
-                "function": "unexpanded",
+                "offName": "unexpanded",
                 "type": ["button"],
                 "name": "unexpanded button",
                 "inherits": "false",
@@ -509,7 +509,7 @@
 ]
                 }
             }, {
-                "function": "open",
+                "offName": "open",
                 "type": ["button"],
                 "name": "open button",
                 "inherits": "false",
@@ -529,7 +529,7 @@
 ]
                 }
             }, {
-                "function": "new",
+                "offName": "new",
                 "type": ["button"],
                 "name": "new button",
                 "inherits": "false",
@@ -549,7 +549,7 @@
 ]
                 }
             }, {
-                "function": "print",
+                "offName": "print",
                 "type": ["button"],
                 "name": "print button",
                 "inherits": "false",
@@ -569,7 +569,7 @@
 ]
                 }
             }, {
-                "function": "settings",
+                "offName": "settings",
                 "type": ["button"],
                 "name": "settings button",
                 "inherits": "false",
@@ -591,7 +591,7 @@
             }
 
             , {
-                "function": "home",
+                "offName": "home",
                 "type": ["link"],
                 "name": "home link",
                 "inherits": "false",
@@ -613,7 +613,7 @@
 					
                 }
             }, {
-                "function": "contact us",
+                "offName": "contact us",
                 "type": ["link"],
                 "name": "contact us link",
                 "inherits": "false",
@@ -633,7 +633,7 @@
 ]
                 }
             }, {
-                "function": "our phone",
+                "offName": "our phone",
                 "type": ["link", "text"],
                 "name": "our phone link",
                 "inherits": "false",
@@ -653,7 +653,7 @@
 ]
                 }
             }, {
-                "function": "our email",
+                "offName": "our email",
                 "type": ["link", "text"],
                 "name": "our email link",
                 "inherits": "false",
@@ -673,7 +673,7 @@
 ]
                 }
             }, {
-                "function": "site map",
+                "offName": "site map",
                 "type": ["link"],
                 "name": "site map link",
                 "inherits": "false",
@@ -693,7 +693,7 @@
 ]
                 }
             }, {
-                "function": "help",
+                "offName": "help",
                 "type": ["link"],
                 "name": "help link",
                 "inherits": "false",
@@ -713,7 +713,7 @@
 ]
                 }
             }, {
-                "function": "about us",
+                "offName": "about us",
                 "type": ["link"],
                 "name": "about us link",
                 "inherits": "false",
@@ -733,7 +733,7 @@
 ]
                 }
             }, {
-                "function": "terms",
+                "offName": "terms",
                 "type": ["link"],
                 "name": "terms link",
                 "inherits": "false",
@@ -753,7 +753,7 @@
 ]
                 }
             }, {
-                "function": "tools",
+                "offName": "tools",
                 "type": ["link"],
                 "name": "tools link",
                 "inherits": "false",
@@ -773,7 +773,7 @@
 ]
                 }
             }, {
-                "function": "comment",
+                "offName": "comment",
                 "type": ["link"],
                 "name": "comment link",
                 "inherits": "false",
@@ -793,7 +793,7 @@
 ]
                 }
             }, {
-                "function": "language",
+                "offName": "language",
                 "type": ["link"],
                 "name": "language link",
                 "inherits": "false",
@@ -813,7 +813,7 @@
 ]
                 }
             }, {
-                "function": "sign in",
+                "offName": "sign in",
                 "type": ["link"],
                 "name": "sign in link",
                 "inherits": "false",
@@ -833,7 +833,7 @@
 ]
                 }
             }, {
-                "function": "sign up",
+                "offName": "sign up",
                 "type": ["link"],
                 "name": "sign up link",
                 "inherits": "false",
@@ -853,7 +853,7 @@
 ]
                 }
             }, {
-                "function": "product",
+                "offName": "product",
                 "type": ["link"],
                 "name": "product link",
                 "inherits": "false",
@@ -873,7 +873,7 @@
 ]
                 }
             }, {
-                "function": "services",
+                "offName": "services",
                 "type": ["link"],
                 "name": "services link",
                 "inherits": "false",
@@ -893,7 +893,7 @@
 ]
                 }
             }, {
-                "function": "social",
+                "offName": "social",
                 "type": ["link"],
                 "name": "social link",
                 "inherits": "false",
@@ -913,7 +913,7 @@
 ]
                 }
             }, {
-                "function": "post address",
+                "offName": "post address",
                 "type": ["link", "text"],
                 "name": "post address link",
                 "inherits": "false",
@@ -933,7 +933,7 @@
 ]
                 }
             }, {
-                "function": "first name",
+                "offName": "first name",
                 "type": ["form control"],
                 "name": "first name form control",
                 "inherits": "false",
@@ -953,7 +953,7 @@
 ]
                 }
             }, {
-                "function": "family name",
+                "offName": "family name",
                 "type": ["form control"],
                 "name": "family name form control",
                 "inherits": "false",
@@ -973,7 +973,7 @@
 ]
                 }
             }, {
-                "function": "initial",
+                "offName": "initial",
                 "type": ["form control"],
                 "name": "initial form control",
                 "inherits": "false",
@@ -993,7 +993,7 @@
 ]
                 }
             }, {
-                "function": "phone",
+                "offName": "phone",
                 "type": ["form control"],
                 "name": "phone form control",
                 "inherits": "false",
@@ -1013,7 +1013,7 @@
 ]
                 }
             }, {
-                "function": "cell phone",
+                "offName": "cell phone",
                 "type": ["form control"],
                 "name": "cell phone form control",
                 "inherits": "false",
@@ -1033,7 +1033,7 @@
 ]
                 }
             }, {
-                "function": "address",
+                "offName": "address",
                 "type": ["form control"],
                 "name": "address form control",
                 "inherits": "false",
@@ -1053,7 +1053,7 @@
 ]
                 }
             }, {
-                "function": "city",
+                "offName": "city",
                 "type": ["form control"],
                 "name": "city form control",
                 "inherits": "false",
@@ -1073,7 +1073,7 @@
 ]
                 }
             }, {
-                "function": "state",
+                "offName": "state",
                 "type": ["form control"],
                 "name": "state form control",
                 "inherits": "false",
@@ -1093,7 +1093,7 @@
 ]
                 }
             }, {
-                "function": "country",
+                "offName": "country",
                 "type": ["form control"],
                 "name": "country form control",
                 "inherits": "false",
@@ -1113,7 +1113,7 @@
 ]
                 }
             }, {
-                "function": "post code",
+                "offName": "post code",
                 "type": ["form control"],
                 "name": "post code form control",
                 "inherits": "false",
@@ -1133,7 +1133,7 @@
 ]
                 }
             }, {
-                "function": "credit card",
+                "offName": "credit card",
                 "type": ["form control"],
                 "name": "credit card form control",
                 "inherits": "false",
@@ -1153,7 +1153,7 @@
 ]
                 }
             }, {
-                "function": "expiry date",
+                "offName": "expiry date",
                 "type": ["form control"],
                 "name": "expiry date form control",
                 "inherits": "false",
@@ -1173,7 +1173,7 @@
 ]
                 }
             }, {
-                "function": "birth date",
+                "offName": "birth date",
                 "type": ["form control"],
                 "name": "birth date form control",
                 "inherits": "false",
@@ -1193,7 +1193,7 @@
 ]
                 }
             }, {
-                "function": "month",
+                "offName": "month",
                 "type": ["form control"],
                 "name": "month form control",
                 "inherits": "false",
@@ -1213,7 +1213,7 @@
 ]
                 }
             }, {
-                "function": "year",
+                "offName": "year",
                 "type": ["form control"],
                 "name": "year form control",
                 "inherits": "false",
@@ -1233,7 +1233,7 @@
 ]
                 }
             }, {
-                "function": "day",
+                "offName": "day",
                 "type": ["form control"],
                 "name": "day form control",
                 "inherits": "false",
@@ -1254,6 +1254,26 @@
                 }
             }
         ],
+		
+		"@role": [
+		{
+                "offName": "navigation",
+				"descendents":{
+					"settings":
+					{
+					   "css": [
+					  {
+						  "propeertyName":"color",
+						  "value":"red"
+					  
+					  }
+  ]
+					
+					
+				}
+				}
+		}
+				],
 
     "@aria-importance": {
         "critical": {
