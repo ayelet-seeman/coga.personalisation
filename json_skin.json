@@ -93,7 +93,7 @@
                     "longdesc": "this button submit your work.",
                     "tooltip": "submit",
                     "text": "submit now",
-                    "Symbol": "http://cdn0.iconfinder.com/data/icons/communication-technology/500/button_push-128.png",
+                    "Symbol": "https://cloud.githubusercontent.com/assets/10908915/9036694/70799212-39ec-11e5-8c00-2aca9567f11c.png",
                     "@aria-hidden": "false",
                     "css": [
 					{
@@ -600,7 +600,7 @@
                     "longdesc": "this links to the home page.",
                     "tooltip": "home",
                     "text": "home",
-                    "Symbol": "",
+                    "Symbol": "https://cloud.githubusercontent.com/assets/10908915/9038627/6c2fda60-39fe-11e5-8f07-8fd95e1abb41.png",
                     "@aria-hidden": "false",
                     "css": [
 					{
