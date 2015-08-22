@@ -6,8 +6,8 @@ h2 {font:Georgia, "Times New Roman", Times, serif font-size:1.15em; text-align:l
 p {text-align:justify; font:Tahoma, Geneva, sans-serif}
 body {background-color:#EAF4FF}
 .navBar { display: block;
-    width: 115px;
-	height:2.5em;
+    width: 100px;
+	height:1.5em;
     font-weight: bold;
     color: black;
     background-color: #71B5FF;
@@ -15,15 +15,18 @@ body {background-color:#EAF4FF}
     padding: 0.2em;
     text-decoration: none;
     text-transform: uppercase;
-	font-size:1.2em;
-	border-style:groove;
-	vertical-align:central;
-	 border-color:#004080;
+	font-size:1em;
+	margin:0.1em;
+
+	vertical-align:middle;
+
+	 	font-family:"MS Serif", "New York", serif;
+		border-width:0.2em;
 	}
 	
-	
-		.optionButtons { display: block;
-    width: 115px;
+	.optionButtons { display: block;
+    width: 145px;
+	padding:0.5em;
 	height:3.25em;
     font-weight: bold;
     color: black;
@@ -33,14 +36,12 @@ body {background-color:#EAF4FF}
     text-decoration: none;
     text-transform: uppercase;
 	font-size:1.2em;
-	border-style:groove;
 	vertical-align:central;
 	 border-color:#004080;
 	 	font-family:"MS Serif", "New York", serif;
-		border-width:0.2em;
+		
 		float:right;
 	}
-	
 ul {
     list-style-type: none;
     margin: 0;
