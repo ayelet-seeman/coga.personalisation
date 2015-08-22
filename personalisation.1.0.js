@@ -9,6 +9,16 @@ The script personalises the web page according to user settings in the JSON prof
 see more at: https://github.com/ayelet-seeman/coga.personalisation/
 */
   
+ function getPersonalisation(url)
+  {
+	  //load json skin (profile)
+	  makeCorsRequest(url);
+
+	  	  
+  }
+  
+
+  
 // Create the XHR object.
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
@@ -42,11 +52,12 @@ function makeCorsRequest(url) {
 	//parse JSON
 	var jsonSkin = JSON.parse(text);
 	//make global variable
-    window.profile = jsonSkin;
-	// run personalisation
-	console.log(jsonSkin.hello);
-	personalisePage(jsonSkin);
-  
+	
+  console.log(jsonSkin.hello);
+ window.profile = jsonSkin;
+ 
+ //run settings
+ personalisePage(profile);
 
   };
 
@@ -59,9 +70,9 @@ function makeCorsRequest(url) {
 
 //a JSON skin compliant with:
 //https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/README.md
-var url = 'https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/json_skin.json';
+//var url = 'https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/skin1.0.json';
 
-makeCorsRequest(url);
+//makeCorsRequest('https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/skin1.0.json');
 
 /*
 personalise page according to the aria-importance attribute, aria-function attribute, and user settings in JSON skin:
@@ -73,8 +84,11 @@ personalise page according to the aria-importance attribute, aria-function attri
 */
 function personalisePage(profile)
 {
+	personaliseFunction(profile);
+	personaliseRole(profile);
 	personaliseImportance(profile);
-    personaliseFunction(profile);	
+	document.getElementById("personalise_page").setAttribute("aria-hidden", "true");
+	
 }
 
 //hide and display elements according to their aria-importance attribute and user settings in JSON skin
@@ -90,7 +104,21 @@ for (var i = 0; i < x.length; i++) {
 	//get element's aria-importance
 	
        arImp =  x[i].getAttribute("aria-importance");
-	 //hide/show elements using aria-hidden
+	 
+	 
+	 //more elegant and easier to add additional levels, but less robust.  
+	 /*  //hide/show element depending on it's aria importance
+	   if (arImp != undefined && arImp != null)
+	   {
+	   console.log(profile['@aria-importance'][arImp].settings['@aria-hidden']);
+	   if (profile['@aria-importance'][arImp].settings['@aria-hidden']=="false")
+	   x[i].setAttribute("aria-hidden", "false");
+	   else if (profile['@aria-importance'][arImp].settings['@aria-hidden']=="true")
+	   x[i].setAttribute("aria-hidden", "true");
+	   }
+	   */
+	   
+	   	 //hide/show elements using aria-hidden
 	   if (arImp!=undefined)
 	   {
 	   //elements with aria-importance critical are always displayed
@@ -169,53 +197,27 @@ personalise elements according to their aria-function attribute and user setting
 3. add tooltip
 4. add access key
 */
-
+/*
+function personaliseFunction(profile)
+{
+	personaliseFeature(profile['@aria-function'], "aria-importance");
+}
+*/
 function personaliseFunction(profile)
 {
 
-	  //get all elements
-    var x = document.querySelectorAll( 'body *' );
-	var i, j;
+	personaliseFeature(profile['@aria-function'], "aria-function");
 
-	var numFunc = profile['@aria-function'].length;
-
- 
- for (i = 0; i < x.length; i++)
-	 {
-		 arFunc =  x[i].getAttribute("aria-function");
-		if (arFunc!= undefined)
-		{
-			 	for (j=0; j<numFunc; j++)
-		{
-			if (arFunc== profile['@aria-function'][j].function)
-			{
-			//check if element needs to be personalised differently
-			if (x[i].tagName=="INPUT") 
-			{
-			personaliseForm (x[i], profile['@aria-function'][j]);
-			}
-			//check icon exists
-			if (profile['@aria-function'][j].settings.Symbol != "" && profile['@aria-function'][j].settings.Symbol != null)
-			//add icon and change text
-			x[i].innerHTML = "\<img src\=\""+profile['@aria-function'][j].settings.Symbol+"\" style\=\" margin:0.1em; padding:0.1em; float:left; \" height\=\"30\"  width\=\"30\"  alt\=\"\"\> "+" "+profile['@aria-function'][j].settings.text;
-			//change text
-			else x[i].innerHTML = profile['@aria-function'][j].settings.text;
-			// add/change tooltip
-			x[i].title = profile['@aria-function'][j].settings.tooltip;
-			// add/change style
-			x[i].style = profile['@aria-function'][j].settings.css;
-			// add/change shortcut (accesskey)
-			x[i].accessKey=profile['@aria-function'][j].settings.shortcut;
-			}
-			
-		}
-			
-		}
-	 }
-	
 	
 }
 
+function personaliseRole(profile)
+{
+
+	personaliseFeature(profile['@role'], "role");
+
+	
+}
 /* personalise form (input) element according to @aria-function and user settings in cogaProfile:
 1. add icon
 2. change text
@@ -240,7 +242,114 @@ function personaliseForm (elem, profileFunction)
 
 
 
+function personaliseFeature(profileFeature, featureName)
+{
+
+console.log("yay");
+	  //get all elements
+    var x = document.querySelectorAll( 'body *' );
+	var i, j;
+	var numFunc = profileFeature.length;
+console.log(profileFeature.length);
+ 
+ for (i = 0; i < x.length; i++)
+	 {
+		 
+		 arFunc =  x[i].getAttribute(featureName);
+		if (arFunc!= undefined)
+		{
+			 	
+				for (j=0; j<numFunc; j++)
+		{
+			if (arFunc== profileFeature[j].offName)
+			{
+				console.log("hey");
+			//check if element needs to be personalised differently
+			if (x[i].tagName=="INPUT") 
+			{
+			personaliseForm (x[i], profileFeature[j]);
+			}
+			
+			//change descendents
+			if (profileFeature[j].descendents != null)
+			{
+				for (var u=0; u<profileFeature[j].descendents.length; u++)
+				{
+			var styleSettings = profileFeature[j].descendents[u].settings.css;
+			console.log(profileFeature[j].offName);
+			console.log(profileFeature[j].descendents[u].settings.css[0].propertyName);
+			for (var l=0; l<styleSettings.length; l++)
+			{
+				if (styleSettings[l].propertyName != null && styleSettings[l].propertyName != "")
+				{
+				var propertyName = styleSettings[l].propertyName;
+				var value = styleSettings[l].value;
+				
+
+				$(x[i]).find(profileFeature[j].descendents[u].descendentTag).css(propertyName, value);
+				
+				}}
+				
+			}
+			}
+
+			
+			//check icon exists
+			if (profileFeature[j].settings!=null)
+			{
+			if (profileFeature[j].settings.Symbol != "" && profileFeature[j].settings.Symbol != null)
+			{
+				//add icon
+			x[i].innerHTML = "\<img src\=\""+profileFeature[j].settings.Symbol+"\" style\=\" margin:0.1em; padding:0.1em; float:left; \" height\=\"30\"  width\=\"30\"  alt\=\"\"\> "+" "+profileFeature[j].settings.text;
+						
+			}
+			
+			else 
+			{
+				//change text
+				x[i].innerHTML = profileFeature[j].settings.text;
+				
+				
+			}
+			
+			x[i].style.width = "auto";
+			x[i].style.paddingRight = "0.5em";
+			x[i].style.paddingRight = "0.5em"
+			
+			
+			var styleSettings = profileFeature[j].settings.css;
+			console.log(styleSettings[0].propertyName);
+			setCSS (x[i], styleSettings)
+
+			// add/change tooltip
+			x[i].title = profileFeature[j].settings.tooltip;
+
+			// add/change shortcut (accesskey)
+			x[i].accessKey=profileFeature[j].settings.shortcut;
+			}
+						}
+			
+		}
+			
+		}
+	 }
+
+}
 
 
+function setCSS (element, settings)
+{
+	for (var i=0; i<settings.length; i++)
+			{
+				var propertyName = settings[i].propertyName;
+				var value = settings[i].value;
+				$(element).css(propertyName, value);
+	
+			}
 
+}
 
+function setCSS_des (element, settings, tagname)
+{
+	
+}
