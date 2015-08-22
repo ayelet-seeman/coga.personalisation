@@ -1260,7 +1260,7 @@
                 "offName": "navigation",
 				"descendents":[
 					{ 
-					"descendentTag":"li",
+					"descendentTag":"a",
 					"settings":
 					{
 					   "css": [
@@ -1283,6 +1283,11 @@
 						  "propertyName":"border-style",
 						  "value":"solid"
 					  
+					  },
+					  
+					  {
+					  	"propertyName":"font-family",
+						  "value":"Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif"
 					  }
 					  
 					  
