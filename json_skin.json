@@ -19,7 +19,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -51,7 +51,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -83,7 +83,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -115,7 +115,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -147,7 +147,7 @@
                         "name": "Surenda Jayawardena, The Noun Project",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -179,7 +179,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -211,7 +211,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -246,7 +246,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -280,7 +280,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -312,7 +312,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -344,7 +344,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -376,7 +376,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -408,7 +408,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -440,7 +440,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -472,7 +472,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -504,7 +504,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -536,7 +536,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -568,7 +568,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -600,7 +600,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -632,7 +632,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -664,7 +664,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -696,7 +696,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -728,7 +728,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -760,7 +760,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -792,7 +792,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -824,7 +824,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -856,7 +856,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -888,7 +888,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -920,7 +920,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -947,13 +947,14 @@
                     "shortcut": "SHIFT+H",
                     "longdesc": "this links to the home page.",
                     "tooltip": "home",
-                    "text": "home",                    "Symbol": {
+                    "text": "home",
+                    "Symbol": {
                     "url": "https://cloud.githubusercontent.com/assets/10908915/9038627/6c2fda60-39fe-11e5-8f07-8fd95e1abb41.png",
                     "creator": {
                         "name": "Jardson Almeida, The Noun Project",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"30",
 						"height":"30",
 						"margin":"",
@@ -980,13 +981,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the contact us page.",
                     "tooltip": "contact us",
-                    "text": "contact us",                    "Symbol": {
+                    "text": "contact us",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1011,13 +1013,14 @@
                     "shortcut": "",
                     "longdesc": "this links to our phone page.",
                     "tooltip": "our phone",
-                    "text": "our phone",                    "Symbol": {
+                    "text": "our phone",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1042,13 +1045,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the our email page.",
                     "tooltip": "our email",
-                    "text": "our email",                    "Symbol": {
+                    "text": "our email",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1073,13 +1077,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the site map page.",
                     "tooltip": "site map",
-                    "text": "site map",                    "Symbol": {
+                    "text": "site map",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1104,13 +1109,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the help page.",
                     "tooltip": "help",
-                    "text": "help",                    "Symbol": {
+                    "text": "help",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1135,13 +1141,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the about us page.",
                     "tooltip": "about us",
-                    "text": "about us",                    "Symbol": {
+                    "text": "about us",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1173,7 +1180,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1198,13 +1205,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the tools page.",
                     "tooltip": "tools",
-                    "text": "tools",                    "Symbol": {
+                    "text": "tools",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1229,13 +1237,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the comment page.",
                     "tooltip": "comment",
-                    "text": "comment",                    "Symbol": {
+                    "text": "comment",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1260,13 +1269,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the language page.",
                     "tooltip": "language",
-                    "text": "language",                    "Symbol": {
+                    "text": "language",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1291,13 +1301,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the sign in.",
                     "tooltip": "sign in",
-                    "text": "sign in",                    "Symbol": {
+                    "text": "sign in",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1322,13 +1333,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the sign up.",
                     "tooltip": "sign up",
-                    "text": "sign up",                    "Symbol": {
+                    "text": "sign up",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1353,13 +1365,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the product.",
                     "tooltip": "product",
-                    "text": "oproduct",                    "Symbol": {
+                    "text": "oproduct",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1384,13 +1397,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the services.",
                     "tooltip": "services",
-                    "text": "services",                    "Symbol": {
+                    "text": "services",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1415,13 +1429,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the social.",
                     "tooltip": "social",
-                    "text": "social",                    "Symbol": {
+                    "text": "social",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1446,13 +1461,14 @@
                     "shortcut": "",
                     "longdesc": "this links to the post address.",
                     "tooltip": "post address",
-                    "text": "post address",                    "Symbol": {
+                    "text": "post address",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1477,13 +1493,14 @@
                     "shortcut": "",
                     "longdesc": "this is the form control for first name field.",
                     "tooltip": "first name",
-                    "text": "first name",                    "Symbol": {
+                    "text": "first name",
+                    "Symbol": {
                     "url": "",
                     "creator": {
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1515,7 +1532,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1547,7 +1564,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1579,7 +1596,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1611,7 +1628,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1643,7 +1660,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1675,7 +1692,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1707,7 +1724,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1739,7 +1756,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1771,7 +1788,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1803,7 +1820,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1835,7 +1852,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1867,7 +1884,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1899,7 +1916,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1931,7 +1948,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
@@ -1963,7 +1980,7 @@
                         "name": "",
                         "url": ""
 					}
-					"settings"{
+					"settings":{
 						"width":"",
 						"height":"",
 						"margin":"",
