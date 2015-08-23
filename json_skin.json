@@ -2009,8 +2009,8 @@
 					{
 					   "css": [
 					  {
-						  "propertyName":"font-size;",
-						  "value":"250%"
+						  "propertyName":"font-size",
+						  "value":"2em" 
 					  
 					  },
 					  {
