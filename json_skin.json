@@ -2010,7 +2010,7 @@
 					   "css": [
 					  {
 						  "propertyName":"font-size;",
-						  "value":"3em"
+						  "value":"250%"
 					  
 					  },
 					  {
@@ -2028,9 +2028,20 @@
 						  "value":"solid"
 					  
 					  },
-					  					  {
+					  {
+						  "propertyName":"font-family",
+						  "value":"Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif"
+					  
+					  },
+					  
+					  {
+						  "propertyName":"text-transform",
+						  "value":"none"
+					  
+					  },					  
+      				          {
 						  "propertyName":"background-color",
-						  "value":"light gray"
+						  "value":" #dfe9e9"
 					  
 					  }
 					  
