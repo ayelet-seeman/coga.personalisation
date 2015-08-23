@@ -19,11 +19,26 @@ All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/m
 
 ```json
 {
-        "@aria-function": [{
-                "function": "function",
+        "@aria-function"('@role','@tag'): [{
+                "offName": "function",
                 "type": ["proposed for the functions target widge type."],   
                 "name": "function name",
                 "inherits": "boolean",
+		"descendents":[
+			{ 
+			"descendentTag":"string, tag",
+			"settings":
+				{
+				  "css": [
+					  {
+						  "propertyName":"propertyName",
+						  "value":"value"
+					  
+					  }
+					  ]
+				 }
+				 }
+			 ], 
                 "settings": { 
                     "shortcut": "Shortcut setting for this function",
                     "longdesc": "description for settings",
@@ -34,16 +49,29 @@ All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/m
                     "creator": {
                         "name": "creator name",
                         "url": "creator url"
+                        
                     },
                     "license": {
                         "name": "licenses",
                         "url": "licenses url"
+                    },
+
+			"settings":{
+					"width":"num of px",
+					"height":"num of px",
+					"margin":"value",
+					"padding":"value"
+					}
                     }
-                },
+               
                     "@aria-hidden": "boolean",
                     "css": "css override setting"
                 }
             }],
+            
+
+	
+	
         "@aria-importance": 
         {
             "critical ('critical','high','med','low')": { 
@@ -58,7 +86,7 @@ All the key-value in the JSON file is followed the https://rawgit.com/w3c/coga/m
 
 ```
 
-##Demo Website ([Online Clothes Shop](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/demo1.0.html))
+##Demo Website ([Personalised Clothes - Contact Us](https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/contactUs.html))
 
 ###button functions:
 - send email
