@@ -2030,7 +2030,7 @@
 					  },
 					  {
 						  "propertyName":"font-family",
-						  "value":"Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif"
+						  "value":"Gotham, \"Helvetica Neue\", Helvetica, Arial, sans-serif"
 					  
 					  },
 					  
