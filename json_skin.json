@@ -955,8 +955,8 @@
                         "url": ""
 					},
 					"settings":{
-						"width":"30",
-						"height":"30",
+						"width":"43",
+						"height":"43",
 						"margin":"",
 						"padding":""
 					}
@@ -2010,7 +2010,7 @@
 					   "css": [
 					  {
 						  "propertyName":"font-size",
-						  "value":"2em" 
+						  "value":"1.7em"
 					  
 					  },
 					  {
@@ -2037,6 +2037,11 @@
 					  {
 						  "propertyName":"text-transform",
 						  "value":"none"
+					  
+					  },
+					  {
+						  "propertyName":"width",
+						  "value":"auto"
 					  
 					  },					  
       				          {
