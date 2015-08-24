@@ -2064,14 +2064,25 @@
 				
   "@tagName": [
 		{
-                "offName": "BUTTON",
-				"descendents":[
-					{ 
-					"descendentTag":"a",
-					"settings":
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
 					{
-					   "css": [
-					  {
 						  "propertyName":"font-size",
 						  "value":"1.7em"
 					  
@@ -2115,14 +2126,16 @@
 					  
 					  
   ]
+					  
+					  
+                }
+				"offName": "BUTTON",
+				"descendents":[
 					
-					
-				}
-					}
-				]
-				}
 
-				],
+				]
+				
+		},
 
     "@aria-importance": {
         "critical": {
