@@ -2128,14 +2128,14 @@
   ]
 					  
 					  
-                }
+                },
 				"offName": "BUTTON",
 				"descendents":[
 					
 
 				]
-				
-		},
+		}
+		],
 
     "@aria-importance": {
         "critical": {
