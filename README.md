@@ -41,7 +41,7 @@ note we are still working on it. more items will come/change</li>
 
 <p><b>setCSS_des (element, des_settings)</b> - set element's descendents' CSS according to the settings in the JSON object recieved.</p>
 
-<p><b>personalise_form_element(elem, profile<p><b>)</b> - personalise text and icon of form (input) element according to settings in the JSON object recieved.</p>
+<p><b>personalise_form_element(elem, profile)</b> - personalise text and icon of form (input) element according to settings in the JSON object recieved.</p>
 
 <p><b>createCORSRequest(method, url)</b> - create the XHR object.</p>
 
