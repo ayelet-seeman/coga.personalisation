@@ -10,7 +10,7 @@ note we are still working on it. more items will come/change</li>
 
 <h2>JavaScript Documentation</h2>
 <p>The JavaScript file personalises the web page according to user settings specified in a JSON file, which trigger by the tag name, role, aria-importance attribute and aria-function attribute.</p>
-<p> The settings in the JSON file need to be in accordance with <a href="https://github.com/ayelet-seeman/coga.personalisation/tree/JSON-Script">https://github.com/ayelet-seeman/coga.personalisation/tree/JSON-Script</a>.</p>
+<p> Guidance for writing the JSON files is available at <a href="https://github.com/ayelet-seeman/coga.personalisation/tree/JSON-Script">https://github.com/ayelet-seeman/coga.personalisation/tree/JSON-Script</a>.</p>
 
 <h2>Functions</h2>
 <p><b>getPersonalisation (url (String))</b> -  download JSON object in url, and personalise page based on the settings in it.</p>
