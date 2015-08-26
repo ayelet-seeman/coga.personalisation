@@ -317,7 +317,6 @@ function style_form_element(elem, profileFeature)
 		if (isDefined(profileFeature.settings.text))
 		elem.value = "    "+profileFeature.settings.text;
 		else elem.value = "    "+elem.value;
-		elem.style.display="block";
 		elem.style.backgroundPosition="left";
 		elem.style.backgroundRepeat="no\-repeat";
 		elem.style.backgroundSize="1.2em"; 
