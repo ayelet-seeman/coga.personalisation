@@ -2318,6 +2318,43 @@
 
 				]
 		},
+		
+{
+				"offName": "P",
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"font-size",
+						  "value":"1.5em"
+					  
+					  }
+					  
+					  
+  ]
+					  
+					  
+                },
+				"descendents":[
+					
+
+				]
+		},
 {
 				"offName": "H2",
                 "inherits": "false",
