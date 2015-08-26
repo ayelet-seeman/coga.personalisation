@@ -2057,7 +2057,39 @@
 				}
 					}
 				]
-				}
+				},
+{
+				"offName": "form",
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"background-color",
+						  "value":"white"
+					  
+					  },
+					  
+					  {
+						  "propertyName":"width",
+						  "value":"auto"
+					  
+					  }
+
 
 				],
 				
