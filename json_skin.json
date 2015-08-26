@@ -2134,7 +2134,192 @@
 					
 
 				]
-		}
+		},
+
+{
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"font-size",
+						  "value":"1.5em"
+					  
+					  }
+					  
+					  
+  ]
+					  
+					  
+                },
+				"offName": "LABEL",
+				"descendents":[
+					
+
+				]
+		},
+		
+{
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"font-size",
+						  "value":"1.5em"
+					  
+					  }
+					  
+					  
+  ]
+					  
+					  
+                },
+				"offName": "INPUT",
+				"descendents":[
+					
+
+				]
+		},
+		
+{
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"font-size",
+						  "value":"1.5em"
+					  
+					  }
+					  
+					  
+  ]
+					  
+					  
+                },
+				"offName": "TEXTAREA",
+				"descendents":[
+					
+
+				]
+		},
+		
+{
+				"offName": "H1",
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"font-size",
+						  "value":"2.5em"
+					  
+					  }
+					  
+					  
+  ]
+					  
+					  
+                },
+				"descendents":[
+					
+
+				]
+		},
+{
+				"offName": "H2",
+                "inherits": "false",
+                "settings": {
+
+                    "Symbol": {
+                    "url": "",
+                    "creator": {
+                        "name": "",
+                        "url": ""
+					},
+					"settings":{
+						"width":"",
+						"height":"",
+						"margin":"",
+						"padding":""
+					}
+                    },
+
+                    "css": [
+					{
+						  "propertyName":"font-size",
+						  "value":"2em"
+					  
+					  }
+					  
+					  
+  ]
+					  
+					  
+                },
+				"descendents":[
+					
+
+				]
+		}		
+
 		],
 
     "@aria-importance": {
