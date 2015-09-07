@@ -52,12 +52,12 @@ ul.nav {
 }
 label {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
-li {float: left;}
+
 
 [aria-hidden=true] {display:none; visibility:hidden;}
 
 
-.contactForm { float:left;background-color:#71B5FF; width:50%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
+.contactForm { float:left; background-color:#71B5FF; width:40%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
 .note {float:right;  width:30%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
 
 footer {
