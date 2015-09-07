@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Personalised Clothes - Contact Us</title>
+<title>Personalised Shop - Contact Us</title>
 <link rel="stylesheet" href="https://rawgit.com/ayelet-seeman/coga.personalisation/demo/stylesheet.css">
 
 
@@ -28,14 +28,14 @@
 <li ><a href="" class="navBar" aria-importance="high" aria-function="site map">Site Map</a></li></ul>
 </div>
 <div id="main_content" role="main">
-<h1 aria-importance="critical">Personalised Clothes</h1>
+<h1 aria-importance="critical">Online Clothes</h1>
 
 
 <div id="personalisation" style="float:right">
 
-<button id="personalise_page" onclick="getPersonalisation('https://rawgit.com/ayelet-seeman/coga.personalisation/demo/skin1.json')"  class="optionButtons">Personalise Page</button><br style="clear:both" />
-<button id="more_options" aria-hidden="true" onclick="moreOptions(window.profile)" aria-importance="critical" class="optionButtons">More Options</button><br style="clear:both" />
-<button id="less_options" aria-hidden="true" onclick="lessOptions(window.profile)" aria-importance="high" class="optionButtons">Less Options</button>
+<button id="personalise_page" onclick="getPersonalisation('https://rawgit.com/ayelet-seeman/coga.personalisation/demo/skin1.json')"  class="optionButtons">Personalise (read JSON)</button><br style="clear:both" />
+<button id="more_options" aria-hidden="true" onclick="moreOptions(window.profile)" aria-importance="critical" class="optionButtons"> >> More Options</button><br style="clear:both" />
+<button id="less_options" aria-hidden="true" onclick="lessOptions(window.profile)" aria-importance="high" class="optionButtons"> << Less Options</button>
 </div>
 
 
@@ -54,10 +54,22 @@
 <label aria-importance="critical">Message:</label><span aria-importance="critical"><br></span>
 <textarea aria-importance="critical" type="text" name="message" rows="10" cols="40">
 Write your message here</textarea>
-<br>
+<br/>
 <input aria-importance="critical" aria-function = "submit"  type="submit"   value="Submit">
 <input  type="reset" aria-importance="med" aria-function = "reset" value="Reset">
 </form>
+</div>
+<div>
+	The JavaScript file personalises the web page according to user settings specified in a JSON file, which trigger by the tag name, role, aria-importance attribute and aria-function attribute.
+<br/>
+It makes the following changes:
+<ul></ul>
+<li>hides and displays elements that are less important</li>
+<li>adds/changes icon</li>
+<li>changes text</li>
+<li>changes style</li>
+<li>adds/changes tooltip</li>
+<li>adds/changes access key</li>
 </div>
 </div>
 <br />
