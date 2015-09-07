@@ -1077,11 +1077,11 @@
                     "shortcut": "",
                     "longdesc": "this links to the site map page.",
                     "tooltip": "site map",
-                    "text": "site map",
+                    "text": "Site Map",
                     "Symbol": {
-                    "url": "",
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/75035-200.png",
                     "creator": {
-                        "name": "",
+                        "name": "The Noun Project",
                         "url": ""
 					},
 					"settings":{
