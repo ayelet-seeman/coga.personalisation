@@ -59,7 +59,7 @@ label {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 
 .contactForm { float:left; background-color:#71B5FF; width:40%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
-.note {float:right;  width:30%; padding:0.3em; margin:4em; border:groove; border-color:#004080;}
+.note {float:right;  width:30%; padding:0.3em; margin:5em; border:groove; border-color:#004080;}
 
 footer {
 clear: left;
