@@ -50,6 +50,7 @@ ul.nav {
     padding: 0;
     overflow: hidden;
 }
+li.nav {float: left;}
 label {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 
@@ -61,7 +62,7 @@ label {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 .note {float:right;  width:30%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
 
 footer {
-float:left;
+clear: left;
 	width:99%;
 	padding:0.6em;
 	margin:0.1em;
