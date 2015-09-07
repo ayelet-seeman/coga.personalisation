@@ -57,11 +57,11 @@ li {float: left;}
 [aria-hidden=true] {display:none; visibility:hidden;}
 
 
-.contactForm { background-color:#71B5FF; width:50%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
+.contactForm { float:left;background-color:#71B5FF; width:50%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
 .note {float:right;  width:30%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
 
 footer {
-
+float:left;
 	width:99%;
 	padding:0.6em;
 	margin:0.1em;
