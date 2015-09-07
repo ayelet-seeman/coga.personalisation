@@ -44,7 +44,7 @@ body {background-color:white}
 		
 		float:right;
 	}
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,7 +56,9 @@ li {float: left;}
 
 [aria-hidden=true] {display:none; visibility:hidden;}
 
-.contactForm { background-color:#71B5FF; width:340px; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
+
+.contactForm {float:left; background-color:#71B5FF; width:50%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
+.note {float:right;  width:30%; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
 
 footer {
 	background-color:#5AAAFA;
