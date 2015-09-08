@@ -43,16 +43,19 @@
 
 <h2> Contact Us</h2>
 <form  action="MAILTO:ayelet.projects1@gmail.com" method="post" enctype="text/plain">
-<label aria-importance="high" aria-function="name"> Name:</label><span aria-importance="high"><br></span>
-<input aria-importance="high" type="text" name="name" value="your name"><span aria-importance="high"><br></span>
-<label aria-importance="critical" aria-function="mail" >E-mail:</label><span aria-importance="critical"><br></span>
-<input aria-importance="critical" type="text" name="mail" value="your email"><span aria-importance="critical"><br></span>
-<label aria-importance="low" >Phone Number:</label><span aria-importance="low"><br></span>
-<input type="text" aria-importance="low"  name="phone" value="your phone number"><span aria-importance="low"><br></span>
-<label aria-importance="high"> Subject:</label><span aria-importance="high"><br></span>
-<input aria-importance="high" type="text" name="subject"  value="your subject"   ><span aria-importance="critical"><br></span>
-<label aria-importance="critical">Message:</label><span aria-importance="critical"><br></span>
-<textarea aria-importance="critical" type="text" name="message" rows="10" cols="40">
+<label aria-importance="high" aria-function="name" for="name"> Name: </label>
+<input aria-importance="high" type="text" name="name" id="name" value="your name"><br/>
+<label aria-importance="critical" aria-function="mail" for="mail" >E-mail: </label>
+<input aria-importance="critical" type="text" name="mail" id="mail" value="your email"><br/>
+<label aria-importance="low" for="phone">Phone: </label>
+<input type="text" aria-importance="low"  name="phone" id="phone" value="your phone number">
+<br/>
+<label aria-importance="high" for="subject"> Subject: </label
+<input aria-importance="high" type="text" name="subject" id="subject" value="your subject"   >
+
+<br/>
+<label aria-importance="critical" for="message">Message: </label><span aria-importance="critical"><br></span>
+<textarea aria-importance="critical" type="text" name="message" id= "message" rows="10" cols="50">
 Write your message here</textarea>
 <br/>
 <input aria-importance="critical" aria-function = "submit"  type="submit"   value="Submit">
