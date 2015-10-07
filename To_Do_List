@@ -12,9 +12,10 @@
 <li> add later aria properties to the script  </li>
 <li> add later api (speach foalso for feedback, speach text highlighting, and other web components) to the html page, the json , the script </li>
 <li> enable different default values for aria-importance</li>
+<li> overide importance</li>
 <li> proposed issues
 <ul>
-<li>Position of elements important</li>
+<li>Position of elements </li>
 <li>Sentences can not be reliably divided. For that use aria-easylang or aria-hasalt as described abov</li>
 <li>enlarged cursor</li>
 <li>screen reading when available</li>
