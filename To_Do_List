@@ -5,12 +5,42 @@
 <li> implement aria button and link functions to add icon, change text, shortcut key add tooltip and pannel for extra help</li> - Ayelet
 <li> implement aria button and link functions to add  pannel for extra help with button added to main menu</li>
 <li> parse the the json to identify any attribute as a variable </li>
-<li>identify the cookie</li>
+<li>identify the local storage</li>
 <li> define and enable cascading</li>
 <li> add later aria properties to the html page </li>
 <li> add later aria properties to the json </li>
 <li> add later aria properties to the script  </li>
 <li> add later api (speach foalso for feedback, speach text highlighting, and other web components) to the html page, the json , the script </li>
 <li> enable different default values for aria-importance</li>
-
+<li> proposed issues
+<ul>
+<li>Position of elements important</li>
+<li>Sentences can not be reliably divided. For that use aria-easylang or aria-hasalt as described abov</li>
+<li>enlarged cursor</li>
+<li>screen reading when available</li>
+<li>a view bar for isolating text while reading,</li>
+<li>Speak text and symbols</li>
+<li>Highlighting: off, by word, phrase, sentence (do we need spans to identify divisions?)<mjm>Misspelling in question posed. I'm not sure I understand the question. Divisions of what, the content that would be read? Wouldn't that simply follow normal document/information structure (e.g. paragraph, line of info being displayed, sentence, etc.)</mjm>
+</li>
+<li>Disable background audio</li>
+<li>Color and background color preference</li>
+<li><mjm>How about persistent user settings for captioning or audio description or for filtering background noise in media?</mjm>
+</li>
+<li>F1 is help about the browser npt the content</li>
+<li>Issues: a universal way for saying I need help – help panel and humen help </li>
+<li>Ambiguity in link types contact us could be a link or section</li>
+<li>Option  - make the names unabiuses contucuslink</li>
+<li>Or trigger with both role and function  (unless role is implide by element type suc as ancor or section)</li>
+<li>Local storage in html 5 not in cookie </li>
+<li>Video and api</li><ul>
+<li>1.	I want tooltips / I do not want tooltips when an item has focus</li>
+<li>2. I want side panel that with show the “morehelp” open by defula</li>
+<li>3. I want side panel that can be opened when I click on my help icon </li>
+<li>4. I want extra help in a popup window</li>
+<li>5. Show “more info” link </li>
+<li>6. I want links to "more information" when ever possible </li>
+<li>7. I want definitions in the side panel </li>
+<li>
+8. Iwant link to human help to be shown/not shown</li>
+</li></ul></li><ul>
 </ul>
