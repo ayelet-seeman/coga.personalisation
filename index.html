@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Personalised Clothes - Contact Us</title>
+  <link rel="stylesheet" href="https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/v1.0.css">
+</head>
+<body>
+  <div lang="en">
+    <a href="#main-content"></a>
+    <div id="nav" role="navigation">
+      <ul>
+        <li ><a coga-simplification="simplest" aria-function="home" href="" class="navBar">Main</a></li>
+        <li  ><a aria-function="about us" coga-simplification="low" href="" class="navBar">About</a></li>
+        <li  ><a  coga-simplification="low" href="" class="navBar">Investors</a></li>
+        <li  ><a  coga-simplification="low" href="" class="navBar">Partners</a></li>
+        <li ><a href="" coga-simplificatione="med" aria-function="services" class="navBar">Services</a></li>
+        <li ><a href="" class="navBar" coga-simplification="simplest" >Mens</a></li>
+        <li ><a href="" class="navBar" coga-simplification="simplest" >Womens</a></li>
+        <li ><a href="" class="navBar" coga-simplification="simplest" >Childrens</a></li>
+        <li ><a href="" class="navBar" coga-simplification="high" >Shoes</a></li>
+        <li ><a href="" class="navBar" coga-simplification="high" >Sports</a></li>
+        <li ><a href="" class="navBar" coga-simplification="high" >Sales</a></li>
+        <li ><a href="" class="navBar" coga-simplification="low" aria-function="contact us" aria-hidden="true">Contact Us</a></li>
+        <li ><a href="" class="navBar" coga-simplification="high" aria-function="site map">Site Map</a></li>
+      </ul>
+    </div>
+    <div id="main_content" role="main">
+      <h1 coga-simplification="simplest">Personalised Clothes</h1>
+        <div id="personalisation" style="float:right">
+          <button id="personalise_page" onclick="getPersonalisation('json/json_skin.json')"  class="optionButtons">Personalise Page</button><br style="clear:both" />
+          <button id="more_options" aria-hidden="true" onclick="moreOptions(window.profile)" coga-simplification="simplest" class="optionButtons">More Options</button><br style="clear:both" />
+          <button id="less_options" aria-hidden="true" onclick="lessOptions(window.profile)" coga-simplification="high" class="optionButtons">Less Options</button>
+      </div>
+      <div coga-simplification="simplest" class="contactForm" role="form">
+        <h2> Contact Us</h2>
+        <form  action="MAILTO:ayelet.projects1@gmail.com" method="post" enctype="text/plain">
+          <label coga-simplification="high" aria-function="name"> Name:</label><span coga-simplification="high"><br></span>
+          <input coga-simplification="high" type="text" name="name" value="your name"><span coga-simplification="high"><br></span>
+          <label coga-simplification="simplest" aria-function="mail" >E-mail:</label><span coga-simplification="simplest"><br></span>
+          <input coga-simplificatione="simplest" type="text" name="mail" value="your email"><span coga-simplification="simplest"><br></span>
+          <label coga-simplification="low" >Phone Number:</label><span coga-simplification="low"><br></span>
+          <input type="text" coga-simplification="low"  name="phone" value="your phone number"><span coga-simplification="low"><br></span>
+          <label coga-simplification="high"> Subject:</label><span coga-simplification="high"><br></span>
+          <input coga-simplification="high" type="text" name="subject"  value="your subject" size="39px"  ><span coga-simplification="simplest"><br></span>
+          <label coga-simplification="simplest">Message:</label><span coga-simplification="simplest"><br></span>
+          <textarea coga-simplification="simplest" type="text" name="message" rows="10" cols="40">
+          Write your message here</textarea>
+          <br>
+          <input coga-simplification="simplest" aria-function = "submit"  type="submit"   value="Submit">
+          <input  type="reset" coga-simplification="med" aria-function = "reset" value="Reset">
+        </form>
+       </div>
+      </div>
+      <br /> <!-- change to CSS -->
+      <br /> <!-- change to CSS -->
+      <footer coga-simplification="med">
+        <p> This is part of a  project to help personlisation for any use - including people with learning and memory issues. For more information see <a href="https://github.com/ayelet-seeman/coga.personalisation" alt="">the github repository</a> as well as <a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/wiki/Easy_Personalization" alt="">the issue paper on easy personalisation</a>. </p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/cogapersonalization.js"> </script>
+  </body>
+</html>

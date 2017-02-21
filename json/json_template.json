@@ -1,0 +1,80 @@
+{
+"@coga-simplification": [{
+        "simplest": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "med": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "low": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-action": [{
+        "compose": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "delete": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "next": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "previous": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "submit": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "undo": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }]
+}

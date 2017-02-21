@@ -1,0 +1,94 @@
+{
+
+    "@coga-simplification": {
+        "simplest": {
+            "settings": {
+                "@aria-hidden": "true",
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        },
+
+        "high": {
+            "settings": {
+                "@aria-hidden": "true",
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        },
+
+        "med": {
+            "settings": {
+                "@aria-hidden": "false",
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        },
+
+        "low": {
+            "settings": {
+                "@aria-hidden": "false",
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        }
+    },
+    "@coga-action": {
+        "compose": {
+            "settings": {
+                "@aria-importance": "critical",
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        },
+
+        "submit": {
+            "settings": {
+                "@aria-importance": "critical",
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        }
+
+    },
+    "@coga-destination": {
+        "home": {
+            "settings": {
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+                }]
+            }
+        },
+
+        "contact-us": {
+            "settings": {
+                "css": [{
+                    "propertyName": "",
+                    "value": ""
+
+                }]
+            }
+        }
+
+    }
+
+}

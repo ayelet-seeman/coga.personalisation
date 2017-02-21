@@ -1,0 +1,65 @@
+{
+        "@aria-function"('@role','@tag'): [{
+                "offName": "function",
+                "type": ["proposed for the functions target widge type."],   
+                "name": "function name",
+                "inherits": "boolean",
+        "descendents":[
+            { 
+            "descendentTag":"string, tag",
+            "settings":
+                {
+                  "css": [
+                      {
+                          "propertyName":"propertyName",
+                          "value":"value"
+
+                      }
+                      ]
+                 }
+                 }
+             ], 
+                "settings": { 
+                    "shortcut": "Shortcut setting for this function",
+                    "longdesc": "description for settings",
+                    "tooltip": "tooltip for display",
+                    "text": "text for display",
+                    "Symbol": {
+                    "url": "url symbol",
+                    "creator": {
+                        "name": "creator name",
+                        "url": "creator url"
+
+                    },
+                    "license": {
+                        "name": "licenses",
+                        "url": "licenses url"
+                    },
+
+            "settings":{
+                    "width":"num of px",
+                    "height":"num of px",
+                    "margin":"value",
+                    "padding":"value"
+                    }
+                    }
+
+                    "@aria-hidden": "boolean",
+                    "css": "css override setting"
+                }
+            }],
+
+
+
+
+        "@aria-importance": 
+        {
+            "critical ('critical','high','med','low')": { 
+                    "settings": {
+                        "@aria-hidden": "boolean",
+                        "css": "css override setting"
+                    }
+                }
+        }
+
+}

@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {font:"Times New Roman", Times, serif; font-size:2.5em; text-align:center; color:#004080}
+h2 {font:Georgia, "Times New Roman", Times, serif font-size:1.15em; text-align:left; color:#004080}
+p {text-align:justify; 
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {background-color:white}
+.navBar { display: block;
+    width: 100px;
+	height:1.5em;
+    font-weight: bold;
+    color: black;
+    background-color: #71B5FF;
+    text-align: center;
+    padding: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size:1em;
+	margin:0.1em;
+
+	vertical-align:middle;
+
+	 	font-family:"MS Serif", "New York", serif;
+		border-width:0.2em;
+	}
+	
+	.optionButtons { display: block;
+    width: 145px;
+	padding:0.5em;
+	height:3.25em;
+    font-weight: bold;
+    color: black;
+    background-color: #71B5FF;
+    text-align: center;
+    padding: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size:1.2em;
+	vertical-align:central;
+	 border-color:#004080;
+	 	font-family:"MS Serif", "New York", serif;
+		
+		float:right;
+	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+label {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+li {float: left;}
+
+[aria-hidden=true] {display:none; visibility:hidden;}
+
+.contactForm { background-color:#71B5FF; width:340px; padding:0.3em; margin:0.1em; border:groove; border-color:#004080;}
+
+footer {
+	background-color:#5AAAFA;
+	width:99%;
+	padding:0.6em;
+	margin:0.1em;
+
+	color:#152935;
+	
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Online Clothes Shop - Contact Us</title>
+<link rel="stylesheet" href="https://rawgit.com/ayelet-seeman/coga.personalisation/ExampleWebPage/v1.0.css">
+
+
+</head>
+
+<body>
+<div lang="en">
+<a href="#main-content"></a>
+<div id="nav" role="navigation">
+<ul>
+<li ><a aria-importance="critical" aria-function="home" href="" class="navBar">Main</a></li>
+<li  ><a aria-function="about us" aria-importance="low" href="" class="navBar">About</a></li>
+<li  ><a  aria-importance="low" href="" class="navBar">Investors</a></li>
+<li  ><a  aria-importance="low" href="" class="navBar">Partners</a></li>
+<li ><a href="" aria-importance="med" aria-function="services" class="navBar">Services</a></li>
+<li ><a href="" class="navBar" aria-importance="critical" >Mens</a></li>
+<li ><a href="" class="navBar" aria-importance="critical" >Womens</a></li>
+<li ><a href="" class="navBar" aria-importance="critical" >Childrens</a></li>
+<li ><a href="" class="navBar" aria-importance="high" >Shoes</a></li>
+<li ><a href="" class="navBar" aria-importance="high" >Sports</a></li>
+<li ><a href="" class="navBar" aria-importance="high" >Sales</a></li>
+<li ><a href="" class="navBar" aria-importance="low" aria-function="contact us" aria-hidden="true">Contact Us</a></li>
+<li ><a href="" class="navBar" aria-importance="high" aria-function="site map">Site Map</a></li></ul>
+</div>
+<div id="main_content" role="main">
+<h1 aria-importance="critical">Personalised Clothes</h1>
+
+
+<div id="personalisation" style="float:right">
+
+<button id="personalise_page" onclick="getPersonalisation('https://rawgit.com/ayelet-seeman/coga.personalisation/JSON-Script/json_skin.json')"  class="optionButtons">Personalise Page</button><br style="clear:both" />
+<button id="more_options" aria-hidden="true" onclick="moreOptions(window.profile)" aria-importance="critical" class="optionButtons">More Options</button><br style="clear:both" />
+<button id="less_options" aria-hidden="true" onclick="lessOptions(window.profile)" aria-importance="high" class="optionButtons">Less Options</button>
+</div>
+
+
+<div aria-importance="critical" class="contactForm" role="form">
+
+<h2> Contact Us</h2>
+<form  action="MAILTO:ayelet.projects1@gmail.com" method="post" enctype="text/plain">
+<label aria-importance="high" aria-function="name"> Name:</label><span aria-importance="high"><br></span>
+<input aria-importance="high" type="text" name="name" value="your name"><span aria-importance="high"><br></span>
+<label aria-importance="critical" aria-function="mail" >E-mail:</label><span aria-importance="critical"><br></span>
+<input aria-importance="critical" type="text" name="mail" value="your email"><span aria-importance="critical"><br></span>
+<label aria-importance="low" >Phone Number:</label><span aria-importance="low"><br></span>
+<input type="text" aria-importance="low"  name="phone" value="your phone number"><span aria-importance="low"><br></span>
+<label aria-importance="high"> Subject:</label><span aria-importance="high"><br></span>
+<input aria-importance="high" type="text" name="subject"  value="your subject" size="39px"  ><span aria-importance="critical"><br></span>
+<label aria-importance="critical">Message:</label><span aria-importance="critical"><br></span>
+<textarea aria-importance="critical" type="text" name="message" rows="10" cols="40">
+Write your message here</textarea>
+<br>
+<input aria-importance="critical" aria-function = "submit"  type="submit"   value="Submit">
+<input  type="reset" aria-importance="med" aria-function = "reset" value="Reset">
+</form>
+</div>
+</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://rawgit.com/ayelet-seeman/coga.personalisation/Script-Options/personalisation.1.0.js"> </script>
+
+	  
+
+</body>
+</html>

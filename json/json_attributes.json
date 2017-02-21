@@ -1,0 +1,798 @@
+{
+"@coga-simplification": [{
+        "simplest": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "high": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "med": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "low": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-action": [{
+        "compose": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "delete": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "next": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "previous": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "submit": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "undo": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "cancel": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "buy": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "add label": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "move": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "view": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "save": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "send": {
+            "settings": [{
+                "importance": "critical",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "received": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "sent": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "edit": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "reply": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "forward": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "my profile": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "upload": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "close": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "more": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "calendar": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "add entry": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "expand": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "unexpanded": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "open": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "new": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "print": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "settings": {
+            "settings": [{
+                "importance": "",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-destination": [{
+        "home": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "contact us": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "our phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "our email": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "site map": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "help": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "about us": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "terms": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "tools": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "comment": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "language": {
+            "settings": [{
+                "language": "english",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "sign in": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "sign up": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "product": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "services": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "social": {
+            "settings": [{
+                "label": "value",
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "post": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "contactus": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "help": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "post": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-field": [{
+        "first name": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "family name": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "initial": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "cell phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "address 1": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "city": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "state": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "country": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "post code": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "phone": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "credit card": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "expiry": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "birth date": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "day, month, year": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "expiry date": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "todays date": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "credit card code": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "date start": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "date end": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-concept": [{
+        "URL": {
+            "settings": [{
+                "href": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-numberfree": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-literal": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-explain": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-feedback": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-moreinfo": [{
+        "URI": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-extrahelp": [{
+        "URI": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-helptype": [{
+        "tooltips": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "humanhelp": {
+            "settings": [{
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }, {
+        "morehelp": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "topicsearch": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:none;"
+            }]
+        }
+    }, {
+        "automated": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "faqs": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "helpform": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "simplified": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "glossary": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "dictionary": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }, {
+        "thesaurus": {
+            "settings": [{
+                "@aria-hidden": "true",
+                "css": "visibility:hide;"
+            }]
+        }
+    }],
+"@coga-alternative": [{
+        "_comment": "needs values",
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+    }],
+"@coga-easylang": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@log": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messageimportance": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messagefrom": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messagecontext": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-messagetime": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-distraction": [{
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-trigger": [{
+        "_comment": "needs values",
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-keyparts": [{
+        "_comment": "needs values",
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }],
+"@coga-dates": [{
+        "_comment": "needs values",
+        "string": {
+            "settings": [{
+                "value": "",
+                "@aria-hidden": "false",
+                "css": "visibility:visible;"
+            }]
+        }
+    }]
+}
