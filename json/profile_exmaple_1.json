@@ -3,7 +3,7 @@
         "coga:name": "USMCI",
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
-        "@aria-function": [{
+        "@aria-action": [{
             "function": "send",
             "type": ["button"],
             "name": "send button",
@@ -99,7 +99,10 @@
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
-        }, {
+        } ],
+		
+		 "@aria-destination": [{
+		 {
             "function": "home",
             "type": ["link"],
             "name": "home link",
@@ -243,7 +246,11 @@
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
-        }, {
+        }} ],
+		
+		 "@aria-field": [{
+		
+		{
             "function": "name",
             "type": ["form control"],
             "name": "name form control",
@@ -316,7 +323,7 @@
         }]
     },
 
-    "@aria-importance": [{
+    "@aria-simplification": [{
         "simplest": {
             "settings": [{
                 "@aria-hidden": "false",
