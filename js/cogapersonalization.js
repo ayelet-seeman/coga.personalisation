@@ -35,6 +35,12 @@ function personalise_element(element, profile) {
 	personalise_element_attribute(element, profile['@tagName'], "tagName");
 	personalise_element_attribute(element, profile['@role'], "role");
 	personalise_element_attribute(element, profile['@aria-function'], "aria-function");
+	personalise_element_attribute(element, profile['@aria-action'], "aria-action");
+
+personalise_element_attribute(element, profile['@aria-destination'], "aria-destination");
+
+personalise_element_attribute(element, profile['@aria-field'], "aria-field");
+
 	personalise_element_importance(element, profile['@coga-simplification'])
 }
 
