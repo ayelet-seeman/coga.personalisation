@@ -25,7 +25,7 @@ function personalisePage(profile) {
 		personalise_element(x[i], profile);
 	}
 	//hide button for loading JSON skin. Line will be removed in later versions.
-	document.getElementById("personalise_page").setAttribute("coga-hidden", "true");
+	document.getElementById("personalise_page").setAttribute("aria-hidden", "true");
 	
 }
 
@@ -131,12 +131,12 @@ function personalise_element_importance(element, imp_settings) {
 	
 	 arImp =  element.getAttribute("coga-importance");
 
-	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@coga-hidden'])) {
-	   //change coga-hidden attribute
-	   if (imp_settings[arImp].settings['@coga-hidden']=="false")
-	   element.setAttribute("coga-hidden", "false");
-	   else if (imp_settings[arImp].settings['@coga-hidden']=="true")
-	   element.setAttribute("coga-hidden", "true");
+	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
+	   //change aria-hidden attribute
+	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
+	   element.setAttribute("aria-hidden", "false");
+	   else if (imp_settings[arImp].settings['@aria-hidden']=="true")
+	   element.setAttribute("aria-hidden", "true");
 	 }	 
 }
 
@@ -145,21 +145,21 @@ function moreOptions(profile) {
 
 var temp = 0;
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-importance'].high.settings['@coga-hidden']=="true")
-	  profile['@coga-importance'].high.settings['@coga-hidden']="false";
+	if (profile['@coga-importance'].high.settings['@aria-hidden']=="true")
+	  profile['@coga-importance'].high.settings['@aria-hidden']="false";
 	  else
-	    if (profile['@coga-importance'].med.settings['@coga-hidden']=="true")
-	      profile['@coga-importance'].med.settings['@coga-hidden']="false";
+	    if (profile['@coga-importance'].med.settings['@aria-hidden']=="true")
+	      profile['@coga-importance'].med.settings['@aria-hidden']="false";
 		  else 
-		  if (profile['@coga-importance'].low.settings['@coga-hidden']=="true")
+		  if (profile['@coga-importance'].low.settings['@aria-hidden']=="true")
 			    {
-					profile['@coga-importance'].low.settings['@coga-hidden']="false";
+					profile['@coga-importance'].low.settings['@aria-hidden']="false";
 					temp = 1;
 				}
 	//personalise importance according to new profile
 	personalise_page_importance(profile);
 	// hide the more options button if all elements are displayed
-	if (temp == 1) document.getElementById("more_options").setAttribute("coga-hidden", "true");	 
+	if (temp == 1) document.getElementById("more_options").setAttribute("aria-hidden", "true");	 
 
 	
 }
@@ -167,15 +167,15 @@ var temp = 0;
 //hide elements with an coga-importance attribute one level higher than currently hidden
 function lessOptions(profile) {
 	//change settings in local JSON skin (profile)		
-	if (profile['@coga-importance'].low.settings['@coga-hidden']=="false")
-	  profile['@coga-importance'].low.settings['@coga-hidden']="true";
+	if (profile['@coga-importance'].low.settings['@aria-hidden']=="false")
+	  profile['@coga-importance'].low.settings['@aria-hidden']="true";
 	  else
-	    if (profile['@coga-importance'].med.settings['@coga-hidden']=="false")
-	      profile['@coga-importance'].med.settings['@coga-hidden']="true";
+	    if (profile['@coga-importance'].med.settings['@aria-hidden']=="false")
+	      profile['@coga-importance'].med.settings['@aria-hidden']="true";
 		  else 
-		  if (profile['@coga-importance'].high.settings['@coga-hidden']=="false")
+		  if (profile['@coga-importance'].high.settings['@aria-hidden']=="false")
 			    {
-					profile['@coga-importance'].high.settings['@coga-hidden']="true";
+					profile['@coga-importance'].high.settings['@aria-hidden']="true";
 					
 				}
 	//personalise importance according to new profile			 
