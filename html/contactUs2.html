@@ -13,19 +13,19 @@
 <a href="#main-content"></a>
 <div id="nav" role="navigation">
 <ul>
-<li ><a coga-simplification="simplest" aria-destination="home" href="" class="navBar">Main</a></li>
-<li  ><a aria-destination="about us" coga-simplification="low" href="" class="navBar">About</a></li>
+<li ><a coga-simplification="simplest" coga-destination="home" href="" class="navBar">Main</a></li>
+<li  ><a coga-destination="about us" coga-simplification="low" href="" class="navBar">About</a></li>
 <li  ><a  coga-simplification="low" href="" class="navBar">Investors</a></li>
 <li  ><a  coga-simplification="low" href="" class="navBar">Partners</a></li>
-<li ><a href="" coga-simplification="med" aria-destination="services" class="navBar">Services</a></li>
+<li ><a href="" coga-simplification="med" coga-destination="services" class="navBar">Services</a></li>
 <li ><a href="" class="navBar" coga-simplification="simplest" >Mens</a></li>
 <li ><a href="" class="navBar" coga-simplification="simplest" >Womens</a></li>
 <li ><a href="" class="navBar" coga-simplification="simplest" >Childrens</a></li>
 <li ><a href="" class="navBar" coga-simplification="high" >Shoes</a></li>
 <li ><a href="" class="navBar" coga-simplification="high" >Sports</a></li>
 <li ><a href="" class="navBar" coga-simplification="high" >Sales</a></li>
-<li ><a href="" class="navBar" coga-simplification="low" aria-destination="contactus" aria-hidden="true">Contact Us</a></li>
-<li ><a href="" class="navBar" coga-simplification="high" aria-destination="sitemap">Site Map</a></li></ul>
+<li ><a href="" class="navBar" coga-simplification="low" coga-destination="contactus" coga-hidden="true">Contact Us</a></li>
+<li ><a href="" class="navBar" coga-simplification="high" coga-destination="sitemap">Site Map</a></li></ul>
 </div>
 <div id="main_content" role="main">
 <h1 coga-simplification="simplest">Personalised Clothes</h1>
@@ -34,8 +34,8 @@
 <div id="personalisation" style="float:right">
 
 <button id="personalise_page" onclick="getPersonalisation('https://rawgit.com/ayelet-seeman/coga.personalisation/master/json/profile_exmaple_1.json')"  class="optionButtons">Personalise Page</button><br style="clear:both" />
-<button id="more_options" aria-hidden="true" onclick="moreOptions(window.profile)" coga-simplification="simplest" class="optionButtons">More Options</button><br style="clear:both" />
-<button id="less_options" aria-hidden="true" onclick="lessOptions(window.profile)" coga-simplification="high" class="optionButtons">Less Options</button>
+<button id="more_options" coga-hidden="true" onclick="moreOptions(window.profile)" coga-simplification="simplest" class="optionButtons">More Options</button><br style="clear:both" />
+<button id="less_options" coga-hidden="true" onclick="lessOptions(window.profile)" coga-simplification="high" class="optionButtons">Less Options</button>
 </div>
 
 
@@ -43,9 +43,9 @@
 
 <h2> Contact Us</h2>
 <form  action="MAILTO:ayelet.projects1@gmail.com" method="post" enctype="text/plain">
-<label coga-simplification="high" aria-field="name"> Name:</label><span coga-simplification="high"><br></span>
+<label coga-simplification="high" coga-field="name"> Name:</label><span coga-simplification="high"><br></span>
 <input coga-simplification="high" type="text" name="name" value="your name"><span coga-simplification="high"><br></span>
-<label coga-simplification="simplest" aria-field="mail" >E-mail:</label><span coga-simplification="simplest"><br></span>
+<label coga-simplification="simplest" coga-field="mail" >E-mail:</label><span coga-simplification="simplest"><br></span>
 <input coga-simplification="simplest" type="text" name="mail" value="your email"><span coga-simplification="simplest"><br></span>
 <label coga-simplification="low" >Phone Number:</label><span coga-simplification="low"><br></span>
 <input type="text" coga-simplification="low"  name="phone" value="your phone number"><span coga-simplification="low"><br></span>
@@ -55,8 +55,8 @@
 <textarea coga-simplification="simplest" type="text" name="message" rows="10" cols="40">
 Write your message here</textarea>
 <br>
-<input coga-simplification="simplest" aria-action = "submit"  type="submit"   value="Submit">
-<input  type="reset" coga-simplification="med" aria-action = "reset" value="Reset">
+<input coga-simplification="simplest" coga-action = "submit"  type="submit"   value="Submit">
+<input  type="reset" coga-simplification="med" coga-action = "reset" value="Reset">
 </form>
 </div>
 </div>

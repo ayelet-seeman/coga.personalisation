@@ -25,7 +25,7 @@ function personalisePage(profile) {
 		personalise_element(x[i], profile);
 	}
 	//hide button for loading JSON skin. Line will be removed in later versions.
-	document.getElementById("personalise_page").setAttribute("aria-hidden", "true");
+	document.getElementById("personalise_page").setAttribute("coga-hidden", "true");
 
 }
 
@@ -34,12 +34,12 @@ function personalise_element(element, profile) {
 
 	personalise_element_attribute(element, profile['@tagName'], "tagName");
 	personalise_element_attribute(element, profile['@role'], "role");
-	personalise_element_attribute(element, profile['@aria-function'], "aria-function");
-	personalise_element_attribute(element, profile['@aria-action'], "aria-action");
+	personalise_element_attribute(element, profile['@coga-function'], "coga-function");
+	personalise_element_attribute(element, profile['@coga-action'], "coga-action");
 
-personalise_element_attribute(element, profile['@aria-destination'], "aria-destination");
+personalise_element_attribute(element, profile['@coga-destination'], "coga-destination");
 
-personalise_element_attribute(element, profile['@aria-field'], "aria-field");
+personalise_element_attribute(element, profile['@coga-field'], "coga-field");
 
 	personalise_element_importance(element, profile['@coga-simplification'])
 }
@@ -137,12 +137,12 @@ function personalise_element_importance(element, imp_settings) {
 
 	 arImp =  element.getAttribute("coga-simplification");
 
-	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
-	   //change aria-hidden attribute
-	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
-	   element.setAttribute("aria-hidden", "false");
-	   else if (imp_settings[arImp].settings['@aria-hidden']=="true")
-	   element.setAttribute("aria-hidden", "true");
+	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@coga-hidden'])) {
+	   //change coga-hidden attribute
+	   if (imp_settings[arImp].settings['@coga-hidden']=="false")
+	   element.setAttribute("coga-hidden", "false");
+	   else if (imp_settings[arImp].settings['@coga-hidden']=="true")
+	   element.setAttribute("coga-hidden", "true");
 	 }
 }
 
@@ -151,21 +151,21 @@ function moreOptions(profile) {
 
 var temp = 0;
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-simplification'].high.settings['@aria-hidden']=="true")
-	  profile['@coga-simplification'].high.settings['@aria-hidden']="false";
+	if (profile['@coga-simplification'].high.settings['@coga-hidden']=="true")
+	  profile['@coga-simplification'].high.settings['@coga-hidden']="false";
 	  else
-	    if (profile['@coga-simplification'].med.settings['@aria-hidden']=="true")
-	      profile['@coga-simplification'].med.settings['@aria-hidden']="false";
+	    if (profile['@coga-simplification'].med.settings['@coga-hidden']=="true")
+	      profile['@coga-simplification'].med.settings['@coga-hidden']="false";
 		  else
-		  if (profile['@coga-simplification'].low.settings['@aria-hidden']=="true")
+		  if (profile['@coga-simplification'].low.settings['@coga-hidden']=="true")
 			    {
-					profile['@coga-simplification'].low.settings['@aria-hidden']="false";
+					profile['@coga-simplification'].low.settings['@coga-hidden']="false";
 					temp = 1;
 				}
 	//personalise importance according to new profile
 	personalise_page_importance(profile);
 	// hide the more options button if all elements are displayed
-	if (temp == 1) document.getElementById("more_options").setAttribute("aria-hidden", "true");
+	if (temp == 1) document.getElementById("more_options").setAttribute("coga-hidden", "true");
 
 
 }
@@ -173,15 +173,15 @@ var temp = 0;
 //hide elements with an coga-simplification attribute one level higher than currently hidden
 function lessOptions(profile) {
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-simplification'].low.settings['@aria-hidden']=="false")
-	  profile['@coga-simplification'].low.settings['@aria-hidden']="true";
+	if (profile['@coga-simplification'].low.settings['@coga-hidden']=="false")
+	  profile['@coga-simplification'].low.settings['@coga-hidden']="true";
 	  else
-	    if (profile['@coga-simplification'].med.settings['@aria-hidden']=="false")
-	      profile['@coga-simplification'].med.settings['@aria-hidden']="true";
+	    if (profile['@coga-simplification'].med.settings['@coga-hidden']=="false")
+	      profile['@coga-simplification'].med.settings['@coga-hidden']="true";
 		  else
-		  if (profile['@coga-simplification'].high.settings['@aria-hidden']=="false")
+		  if (profile['@coga-simplification'].high.settings['@coga-hidden']=="false")
 			    {
-					profile['@coga-simplification'].high.settings['@aria-hidden']="true";
+					profile['@coga-simplification'].high.settings['@coga-hidden']="true";
 
 				}
 	//personalise importance according to new profile
@@ -339,11 +339,11 @@ function personalise_page_attribute(profileAttribute, AttributeName)
 
 }
 
-//personalise page by aria-function according to the settings in the JSON object recieved
+//personalise page by coga-function according to the settings in the JSON object recieved
 function personalise_page_function(profile)
 {
 
-	personalise_page_attribute(profile['@aria-function'], "aria-function");
+	personalise_page_attribute(profile['@coga-function'], "coga-function");
 
 
 }

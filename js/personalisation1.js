@@ -25,7 +25,7 @@ function personalisePage(profile) {
 		personalise_element(x[i], profile);
 	}
 	//hide button for loading JSON skin. Line will be removed in later versions.
-	document.getElementById("personalise_page").setAttribute("aria-hidden", "true");
+	document.getElementById("personalise_page").setAttribute("coga-hidden", "true");
 	
 }
 
@@ -34,8 +34,8 @@ function personalise_element(element, profile) {
 
 	personalise_element_attribute(element, profile['@tagName'], "tagName");
 	personalise_element_attribute(element, profile['@role'], "role");
-	personalise_element_attribute(element, profile['@aria-function'], "aria-function");
-	personalise_element_importance(element, profile['@aria-importance'])	
+	personalise_element_attribute(element, profile['@coga-function'], "coga-function");
+	personalise_element_importance(element, profile['@coga-importance'])	
 }
 
 //personalise element by attributeName according to the settings in the JSON object recieved
@@ -125,64 +125,64 @@ function personalise_element_attribute(element, profileAttribute, AttributeName)
 	 }
 }
 
-//hide or display element by it's aria-importance according to the settings in the JSON object recieved
+//hide or display element by it's coga-importance according to the settings in the JSON object recieved
 function personalise_element_importance(element, imp_settings) {
 	
 	
-	 arImp =  element.getAttribute("aria-importance");
+	 arImp =  element.getAttribute("coga-importance");
 
-	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
-	   //change aria-hidden attribute
-	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
-	   element.setAttribute("aria-hidden", "false");
-	   else if (imp_settings[arImp].settings['@aria-hidden']=="true")
-	   element.setAttribute("aria-hidden", "true");
+	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@coga-hidden'])) {
+	   //change coga-hidden attribute
+	   if (imp_settings[arImp].settings['@coga-hidden']=="false")
+	   element.setAttribute("coga-hidden", "false");
+	   else if (imp_settings[arImp].settings['@coga-hidden']=="true")
+	   element.setAttribute("coga-hidden", "true");
 	 }	 
 }
 
-//display elements with an aria-importance attribute one level lower than currently displayed
+//display elements with an coga-importance attribute one level lower than currently displayed
 function moreOptions(profile) {
 
 var temp = 0;
 	//change settings in local JSON skin (profile)
-	if (profile['@aria-importance'].high.settings['@aria-hidden']=="true")
-	  profile['@aria-importance'].high.settings['@aria-hidden']="false";
+	if (profile['@coga-importance'].high.settings['@coga-hidden']=="true")
+	  profile['@coga-importance'].high.settings['@coga-hidden']="false";
 	  else
-	    if (profile['@aria-importance'].med.settings['@aria-hidden']=="true")
-	      profile['@aria-importance'].med.settings['@aria-hidden']="false";
+	    if (profile['@coga-importance'].med.settings['@coga-hidden']=="true")
+	      profile['@coga-importance'].med.settings['@coga-hidden']="false";
 		  else 
-		  if (profile['@aria-importance'].low.settings['@aria-hidden']=="true")
+		  if (profile['@coga-importance'].low.settings['@coga-hidden']=="true")
 			    {
-					profile['@aria-importance'].low.settings['@aria-hidden']="false";
+					profile['@coga-importance'].low.settings['@coga-hidden']="false";
 					temp = 1;
 				}
 	//personalise importance according to new profile
 	personalise_page_importance(profile);
 	// hide the more options button if all elements are displayed
-	if (temp == 1) document.getElementById("more_options").setAttribute("aria-hidden", "true");	 
+	if (temp == 1) document.getElementById("more_options").setAttribute("coga-hidden", "true");	 
 
 	
 }
 
-//hide elements with an aria-importance attribute one level higher than currently hidden
+//hide elements with an coga-importance attribute one level higher than currently hidden
 function lessOptions(profile) {
 	//change settings in local JSON skin (profile)		
-	if (profile['@aria-importance'].low.settings['@aria-hidden']=="false")
-	  profile['@aria-importance'].low.settings['@aria-hidden']="true";
+	if (profile['@coga-importance'].low.settings['@coga-hidden']=="false")
+	  profile['@coga-importance'].low.settings['@coga-hidden']="true";
 	  else
-	    if (profile['@aria-importance'].med.settings['@aria-hidden']=="false")
-	      profile['@aria-importance'].med.settings['@aria-hidden']="true";
+	    if (profile['@coga-importance'].med.settings['@coga-hidden']=="false")
+	      profile['@coga-importance'].med.settings['@coga-hidden']="true";
 		  else 
-		  if (profile['@aria-importance'].high.settings['@aria-hidden']=="false")
+		  if (profile['@coga-importance'].high.settings['@coga-hidden']=="false")
 			    {
-					profile['@aria-importance'].high.settings['@aria-hidden']="true";
+					profile['@coga-importance'].high.settings['@coga-hidden']="true";
 					
 				}
 	//personalise importance according to new profile			 
 	personalise_page_importance(profile);
 }
 
-//hide or display elements by aria-importance according to the settings in the JSON object recieved
+//hide or display elements by coga-importance according to the settings in the JSON object recieved
 function personalise_page_importance(profile)
 {
    
@@ -192,7 +192,7 @@ function personalise_page_importance(profile)
 
 	for (var i = 0; i < x.length; i++) {
 		//hide or display element
-		personalise_element_importance(x[i], profile['@aria-importance']);
+		personalise_element_importance(x[i], profile['@coga-importance']);
 		   
 		 }
 
@@ -333,11 +333,11 @@ function personalise_page_attribute(profileAttribute, AttributeName)
 
 }
 
-//personalise page by aria-function according to the settings in the JSON object recieved
+//personalise page by coga-function according to the settings in the JSON object recieved
 function personalise_page_function(profile)
 {
 
-	personalise_page_attribute(profile['@aria-function'], "aria-function");
+	personalise_page_attribute(profile['@coga-function'], "coga-function");
 
 	
 }

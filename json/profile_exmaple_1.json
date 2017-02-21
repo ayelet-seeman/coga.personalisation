@@ -3,7 +3,7 @@
         "coga:name": "USMCI",
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
-        "@aria-action": [{
+        "@coga-action": [{
             "function": "send",
             "type": ["button"],
             "name": "send button",
@@ -24,7 +24,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em; border: 5px solid"
             }
         }, {
@@ -48,7 +48,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em; border: 5px solid"
             }
         }, {
@@ -72,7 +72,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -96,12 +96,12 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         } ],
 		
-		 "@aria-destination": [{
+		 "@coga-destination": [{
 		 {
             "function": "home",
             "type": ["link"],
@@ -123,7 +123,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -147,7 +147,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -171,7 +171,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -195,7 +195,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -219,7 +219,7 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -243,12 +243,12 @@
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
                     }]
                 }],
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }} ],
 		
-		 "@aria-field": [{
+		 "@coga-field": [{
 		
 		{
             "function": "name",
@@ -261,7 +261,7 @@
                 "tooltip": "name",
                 "text": "name",
                 "Symbol": "",
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -275,7 +275,7 @@
                 "tooltip": "email",
                 "text": "email",
                 "Symbol": "",
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -289,7 +289,7 @@
                 "tooltip": "subject",
                 "text": "subject",
                 "Symbol": "",
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -303,7 +303,7 @@
                 "tooltip": "message",
                 "text": "message",
                 "Symbol": "",
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
@@ -317,37 +317,37 @@
                 "tooltip": "phone",
                 "text": "phone",
                 "Symbol": "",
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }]
     },
 
-    "@aria-simplification": [{
+    "@coga-simplification": [{
         "simplest": {
             "settings": [{
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;"
             }]
         }
     }, {
         "high": {
             "settings": [{
-                "@aria-hidden": "false",
+                "@coga-hidden": "false",
                 "css": "visibility:visible;"
             }]
         }
     }, {
         "med": {
             "settings": [{
-                "@aria-hidden": "true",
+                "@coga-hidden": "true",
                 "css": "visibility:none;"
             }]
         }
     }, {
         "low": {
             "settings": [{
-                "@aria-hidden": "true",
+                "@coga-hidden": "true",
                 "css": "visibility:none;"
             }]
         }
