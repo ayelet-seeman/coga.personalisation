@@ -137,7 +137,7 @@ function personalise_element_importance(element, imp_settings) {
 
 	 arImp =  element.getAttribute("coga-simplification");
 
-	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
+	 if (isDefined(arImp) && isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
 	   //change aria-hidden attribute
 	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
 	   element.setAttribute("aria-hidden", "false");
