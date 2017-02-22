@@ -136,12 +136,14 @@ function personalise_element_importance(element, imp_settings) {
 
 
 	 arImp =  element.getAttribute("coga-simplification");
-
-	 if (isDefined(arImp) && isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
+	
+	var currentarImpObj =  jQuery.map(imp_settings, function(item){ return item[arImp] });
+	
+	 if (isDefined(arImp) && isDefined(currentarImpObj[0].settings[0]['@aria-hidden'])) {
 	   //change aria-hidden attribute
-	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
+	   if (currentarImpObj[0].settings[0]['@aria-hidden']=="false")
 	   element.setAttribute("aria-hidden", "false");
-	   else if (imp_settings[arImp].settings['@aria-hidden']=="true")
+	   else if (currentarImpObj[0].settings[0]['@aria-hidden']=="true")
 	   element.setAttribute("aria-hidden", "true");
 	 }
 }
