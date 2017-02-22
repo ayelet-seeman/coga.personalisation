@@ -102,7 +102,6 @@
         } ],
 		
 		 "@coga-destination": [{
-		 {
             "function": "home",
             "type": ["link"],
             "name": "home link",
@@ -245,12 +244,9 @@
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
-            }
         }} ],
 		
 		 "@coga-field": [{
-		
-		{
             "function": "name",
             "type": ["form control"],
             "name": "name form control",
