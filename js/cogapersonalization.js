@@ -136,9 +136,9 @@ function personalise_element_importance(element, imp_settings) {
 
 
 	 arImp =  element.getAttribute("coga-simplification");
-	
+
 	var currentarImpObj =  jQuery.map(imp_settings, function(item){ return item[arImp] });
-	
+
 	 if (isDefined(arImp) && isDefined(currentarImpObj[0].settings[0]['@aria-hidden'])) {
 	   //change aria-hidden attribute
 	   if (currentarImpObj[0].settings[0]['@aria-hidden']=="false")
@@ -153,21 +153,24 @@ function moreOptions(profile) {
 
 var temp = 0;
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-simplification'].high.settings['@aria-hidden']=="true")
-	  profile['@coga-simplification'].high.settings['@aria-hidden']="false";
+	if (profile['@coga-simplification'][1].high.settings[0]['@aria-hidden']=="true"){
+	  profile['@coga-simplification'][1].high.settings[0]['@aria-hidden']="false";
+  }
 	  else
-	    if (profile['@coga-simplification'].med.settings['@aria-hidden']=="true")
-	      profile['@coga-simplification'].med.settings['@aria-hidden']="false";
+	    if (profile['@coga-simplification'][2].med.settings[0]['@aria-hidden']=="true"){
+	      profile['@coga-simplification'][2].med.settings[0]['@aria-hidden']="false";
+      }
 		  else
-		  if (profile['@coga-simplification'].low.settings['@aria-hidden']=="true")
+		  if (profile['@coga-simplification'][3].low.settings[0]['@aria-hidden']=="true"){
 			    {
-					profile['@coga-simplification'].low.settings['@aria-hidden']="false";
+					profile['@coga-simplification'][3].low.settings[0]['@aria-hidden']="false";
 					temp = 1;
+        }
 				}
 	//personalise importance according to new profile
 	personalise_page_importance(profile);
 	// hide the more options button if all elements are displayed
-	if (temp == 1) document.getElementById("more_options").setAttribute("aria-hidden", "true");
+	if (temp == 1){ document.getElementById("more_options").setAttribute("aria-hidden", "true")};
 
 
 }
@@ -175,15 +178,17 @@ var temp = 0;
 //hide elements with an coga-simplification attribute one level higher than currently hidden
 function lessOptions(profile) {
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-simplification'].low.settings['@aria-hidden']=="false")
-	  profile['@coga-simplification'].low.settings['@aria-hidden']="true";
+	if (profile['@coga-simplification'][3].low.settings[0]['@aria-hidden']=="false"){
+	  profile['@coga-simplification'][3].low.settings[0]['@aria-hidden']="true";
+  }
 	  else
-	    if (profile['@coga-simplification'].med.settings['@aria-hidden']=="false")
-	      profile['@coga-simplification'].med.settings['@aria-hidden']="true";
+	    if (profile['@coga-simplification'][2].med.settings[0]['@aria-hidden']=="false"){
+	      profile['@coga-simplification'][2].med.settings[0]['@aria-hidden']="true";
+      }
 		  else
-		  if (profile['@coga-simplification'].high.settings['@aria-hidden']=="false")
+		  if (profile['@coga-simplification'][1].high.settings[0]['@aria-hidden']=="false")
 			    {
-					profile['@coga-simplification'].high.settings['@aria-hidden']="true";
+					profile['@coga-simplification'][1].high.settings[0]['@aria-hidden']="true";
 
 				}
 	//personalise importance according to new profile
