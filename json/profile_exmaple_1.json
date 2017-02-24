@@ -158,7 +158,7 @@
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
-            "function": "contact us",
+            "function": "contactus",
             "type": ["link"],
             "name": "contact us link",
             "inherits": "false",
@@ -188,7 +188,7 @@
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }, {
-            "function": "site map",
+            "function": "sitemap",
             "type": ["link"],
             "name": "site map link",
             "inherits": "false",
