@@ -1,10 +1,11 @@
 {
-    "coga.profile": {
+      "hello":"world",
         "coga:name": "USMCI",
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
         "@coga-action": [{
             "function": "send",
+            "offname": "send",
             "type": ["button"],
             "name": "send button",
             "inherits": "false",
@@ -19,10 +20,16 @@
                         "name": "Rodolfo Alvarez",
                         "url": "https://thenounproject.com/dg.rodolfoalvarez/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"30",
+          						"height":"30",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em; border: 5px solid"
@@ -43,10 +50,16 @@
                         "name": "Daniel Simon",
                         "url": "https://thenounproject.com/danielsimon/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em; border: 5px solid"
@@ -67,10 +80,16 @@
                         "name": "Tahsin Tahil",
                         "url": "https://thenounproject.com/tahiltahsin/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
@@ -91,18 +110,25 @@
                         "name": "Yaroslav Samoilov",
                         "url": "https://thenounproject.com/Yaosamo/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         } ],
-		
+
 		 "@coga-destination": [{
             "function": "home",
+              "offName": "home",
             "type": ["link"],
             "name": "home link",
             "inherits": "false",
@@ -117,10 +143,16 @@
                         "name": "Danilo Celestino de Castro",
                         "url": "https://thenounproject.com/daniloegod/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"43",
+          						"height":"43",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
@@ -141,10 +173,16 @@
                         "name": "Martha Ormiston",
                         "url": "https://thenounproject.com/mrfa/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
@@ -165,10 +203,16 @@
                         "name": "Sathish Selladurai",
                         "url": "https://thenounproject.com/sathishs/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
@@ -189,10 +233,16 @@
                         "name": "Consumer Financial Protection Bureau",
                         "url": "https://thenounproject.com/cfpb_minicons/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
@@ -213,10 +263,16 @@
                         "name": "BraveBros.",
                         "url": "https://thenounproject.com/bravebros/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
@@ -237,15 +293,21 @@
                         "name": "Christopher Smith",
                         "url": "https://thenounproject.com/oneafternine/"
                     },
-                    "license": [{
+                    "license": {
                         "name": "Creative Commons",
                         "url": "http://creativecommons.org/licenses/by/3.0/us/"
-                    }]
+                    },
+                    "settings":{
+          						"width":"",
+          						"height":"",
+          						"margin":"",
+          						"padding":""
+          					}
                 }],
                 "@aria-hidden": "false",
                 "css": "visibility:visible;size:2em;border: 5px solid"
         }} ],
-		
+
 		 "@coga-field": [{
             "function": "name",
             "type": ["form control"],
@@ -317,7 +379,7 @@
                 "css": "visibility:visible;size:2em;border: 5px solid"
             }
         }]
-    },
+    ,
 
     "@coga-simplification": [{
         "simplest": {
