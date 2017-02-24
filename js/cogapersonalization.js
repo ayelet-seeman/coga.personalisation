@@ -37,9 +37,9 @@ function personalise_element(element, profile) {
 	personalise_element_attribute(element, profile['@coga-function'], "coga-function");
 	personalise_element_attribute(element, profile['@coga-action'], "function");
 
-personalise_element_attribute(element, profile['@coga-destination'], "function");
+personalise_element_attribute(element, profile['@coga-destination'], "coga-destination");
 
-personalise_element_attribute(element, profile['@coga-field'], "function");
+personalise_element_attribute(element, profile['@coga-field'], "coga-field");
 
 	personalise_element_importance(element, profile['@coga-simplification'])
 }
