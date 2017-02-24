@@ -35,7 +35,7 @@ function personalise_element(element, profile) {
 	personalise_element_attribute(element, profile['@tagName'], "tagName");
 	personalise_element_attribute(element, profile['@role'], "role");
 	personalise_element_attribute(element, profile['@coga-function'], "coga-function");
-	personalise_element_attribute(element, profile['@coga-action'], "function");
+	personalise_element_attribute(element, profile['@coga-action'], "coga-action");
 
 personalise_element_attribute(element, profile['@coga-destination'], "coga-destination");
 
