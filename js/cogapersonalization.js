@@ -77,24 +77,24 @@ function personalise_element_attribute(element, profileAttribute, AttributeName)
 
 			if (isDefined(profileAttribute[j].settings)) {
 
-			if (isDefined(profileAttribute[j].settings.Symbol.url)) {
+			if (isDefined(profileAttribute[j].settings.Symbol[0].url)) {
 
 				//set width and height
 				var height = "30";
 				var width = "30";
-				if (isDefined(profileAttribute[j].settings.Symbol.settings.height))
-				var height = profileAttribute[j].settings.Symbol.settings.height;
+				if (isDefined(profileAttribute[j].settings.Symbol[0].settings.height))
+				var height = profileAttribute[j].settings.Symbol[0].settings.height;
 
-				if (isDefined(profileAttribute[j].settings.Symbol.settings.width))
-				var width = profileAttribute[j].settings.Symbol.settings.width;
+				if (isDefined(profileAttribute[j].settings.Symbol[0].settings.width))
+				var width = profileAttribute[j].settings.Symbol[0].settings.width;
 
-
+console.log(profileAttribute);
 				//add icon when text is defined
 				if (isDefined(profileAttribute[j].settings.text))
-			element.innerHTML = "\<img src\=\""+profileAttribute[j].settings.Symbol.url+"\" style\=\" margin:0em; padding:0em; padding\-top:-0.2em; float:left; \" height\=\""+height+"\"  width\=\""+width+"\"  alt\=\"\"\> "+" "+profileAttribute[j].settings.text;
+			element.innerHTML = "<img height='20px' width='20px;' src="+profileAttribute[j].settings.Symbol[0].url+">"+" "+profileAttribute[j].settings.text;
 
 				//add icon when text isn't defined
-			else element.innerHTML = "\<img src\=\""+profileAttribute[j].settings.Symbol.url+"\" style\=\" margin:0em; padding:0em; padding\-top:-0.2em; float:left; \" height\=\""+height+"\"  width\=\""+width+"\"  alt\=\"\"\> "+" "+element.innerHTML;
+			else element.innerHTML = "<img src=" +profileAttribute[j].settings.Symbol[0].url+" >" +"" +element.innerHTML;
 			}
 
 			else
