@@ -258,17 +258,18 @@ function makeCorsRequest(url) {
 
 //set elements' CSS according to the settings in the JSON object recieved
 function setCSS(element, settings) {
-	if (isDefined(settings))
+	if (isDefined(settings)) {
+		settings = settings.split(';');
 		for (var i = 0; i < settings.length; i++) {
-			if (isDefined(settings[i].propertyName)) {
-				var propertyName = settings[i].propertyName;
-				if (isDefined(settings[i].value)) {
-					var value = settings[i].value;
-					$(element).css(propertyName, value);
-				}
-			}
+			var cssDefinition = settings[i].split(':'),
+				propertyName = cssDefinition[0],
+				value = cssDefinition[1];
 
+			if (isDefined(propertyName) && isDefined(value)) {
+				$(element).css(propertyName, value);
+			}
 		}
+	}
 
 }
 
@@ -278,12 +279,17 @@ function setCSS_des(element, des_settings) {
 	if (isDefined(des_settings))
 		for (var i = 0; i < des_settings.length; i++) {
 			var styleSettings = des_settings[i].settings.css;
-			if (isDefined(styleSettings));
-			for (var j = 0; j < styleSettings.length; j++) {
-				var propertyName = styleSettings[j].propertyName;
-				var value = styleSettings[j].value;
-				if (isDefined(propertyName) && isDefined(value))
-					$(element).find(des_settings[i].descendentTag).css(propertyName, value);
+			if (isDefined(styleSettings)) {
+				styleSettings = styleSettings.split(';');
+				for (var j = 0; j < styleSettings.length; j++) {
+					var cssDefinition = settings[j].split(':'),
+						propertyName = cssDefinition[0],
+						value = cssDefinition[1];
+
+					if (isDefined(propertyName) && isDefined(value)) {
+						$(element).css(propertyName, value);
+					}
+				}
 			}
 		}
 

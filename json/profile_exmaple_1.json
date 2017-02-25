@@ -4,16 +4,16 @@
         "coga:desc": "helpful for age appropriate forgetfulness",
         "coga:local": "US",
         "@coga-action": [{
-            "function": "send",
-            "offName": "send",
+            "function": "submit",
+            "offName": "submit",
             "type": ["button"],
-            "name": "send button",
+            "name": "submit button",
             "inherits": "false",
             "settings": {
                 "shortcut": "SHIFT+S",
-                "longdesc": "this button allows you to send your the message.",
-                "tooltip": "send",
-                "text": "send now",
+                "longdesc": "this button allows you to submit your the message.",
+                "tooltip": "submit",
+                "text": "submit now",
                 "Symbol": [{
                     "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/102500-200.png",
                     "creator": {
@@ -32,10 +32,11 @@
           					}
                 }],
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em; border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "reset",
+            "offName": "reset",
             "type": ["button"],
             "name": "reset button",
             "inherits": "false",
@@ -62,10 +63,11 @@
           					}
                 }],
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em; border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "more",
+            "offName": "more",
             "type": ["link"],
             "name": "more option link",
             "inherits": "false",
@@ -92,10 +94,11 @@
           					}
                 }],
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "less",
+            "offName": "less",
             "type": ["link"],
             "name": "less option link",
             "inherits": "false",
@@ -122,7 +125,7 @@
           					}
                 }],
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         } ],
 
@@ -154,8 +157,7 @@
           						"padding":""
           					}
                 }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "@aria-hidden": "false"
             }
         }, {
             "function": "contactus",
@@ -185,8 +187,7 @@
           						"padding":""
           					}
                 }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "@aria-hidden": "false"
             }
         }, {
             "function": "sitemap",
@@ -216,8 +217,7 @@
           						"padding":""
           					}
                 }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "@aria-hidden": "false"
             }
         }, {
             "function": "help",
@@ -247,8 +247,7 @@
           						"padding":""
           					}
                 }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "@aria-hidden": "false"
             }
         }, {
             "function": "product",
@@ -278,8 +277,7 @@
           						"padding":""
           					}
                 }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "@aria-hidden": "false"
             }
         }, {
             "function": "services",
@@ -309,8 +307,7 @@
           						"padding":""
           					}
                 }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "@aria-hidden": "false"
         }} ],
 
 		 "@coga-field": [{
@@ -325,7 +322,7 @@
                 "text": "name",
                 "Symbol": "",
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "email",
@@ -339,7 +336,7 @@
                 "text": "email",
                 "Symbol": "",
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "subject",
@@ -353,7 +350,7 @@
                 "text": "subject",
                 "Symbol": "",
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "message",
@@ -367,7 +364,7 @@
                 "text": "message",
                 "Symbol": "",
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }, {
             "function": "phone",
@@ -381,7 +378,7 @@
                 "text": "phone",
                 "Symbol": "",
                 "@aria-hidden": "false",
-                "css": "visibility:visible;size:2em;border: 5px solid"
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
         }]
     ,
