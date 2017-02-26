@@ -347,66 +347,6 @@
 	    
          }]
 },
-"@role": [
-		{
-                "offName": "navigation",
-				"descendents":[
-					{ 
-					"descendentTag":"a",
-					"settings":
-					{
-					   "css": [
-					  {
-						  "propertyName":"font-size",
-						  "value":"1.7em"
-					  
-					  },
-					  {
-						  "propertyName":"border-color",
-						  "value":"black"
-					  
-					  },
-					   {
-						  "propertyName":"color",
-						  "value":"black"
-					  
-					  },
-					  {
-						  "propertyName":"border-style",
-						  "value":"solid"
-					  
-					  },
-					  {
-						  "propertyName":"font-family",
-						  "value":"Gotham, \"Helvetica Neue\", Helvetica, Arial, sans-serif"
-					  
-					  },
-					  
-					  {
-						  "propertyName":"text-transform",
-						  "value":"none"
-					  
-					  },
-					  {
-						  "propertyName":"width",
-						  "value":"auto"
-					  
-					  },					  
-      				          {
-						  "propertyName":"background-color",
-						  "value":" #dfe9e9"
-					  
-					  }
-					  
-					  
-  ]
-					
-					
-				}
-					}
-				]
-				},
-
     "@coga-simplification": [{
         "simplest": {
             "settings": [{
