@@ -38,7 +38,7 @@
         "function": "reset",
         "offName": "reset",
         "type": ["button"],
-        "name": "reset button",
+        "name": "reset button", 
         "inherits": "false",
         "settings": {
             "shortcut": "SHIFT+R",
