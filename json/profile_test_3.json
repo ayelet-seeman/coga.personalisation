@@ -38,7 +38,7 @@
         "function": "reset",
         "offName": "reset",
         "type": ["button"],
-        "name": "reset button", 
+        "name": "reset button",
         "inherits": "false",
         "settings": {
             "shortcut": "SHIFT+R",
@@ -606,15 +606,57 @@
 					{ 
 					"descendentTag":"a",
 					"settings":
-						{ "css": "visibility:visible;font-size:2em;border: 5px solid;font-family:Arial;border-color:black;background-color;#dfe9e9"
-						} 
-					}	
-			  		  
-					 ]
+					{
+					   "css": [
+						  {
+							  "propertyName":"font-size",
+							  "value":"1.7em"
+						  
+						  },
+						  {
+							  "propertyName":"border-color",
+							  "value":"black"
+						  
+						  },
+						   {
+							  "propertyName":"color",
+							  "value":"black"
+						  
+						  },
+						  {
+							  "propertyName":"border-style",
+							  "value":"solid"
+						  
+						  },
+						  {
+							  "propertyName":"font-family",
+							  "value":"Gotham, \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+						  
+						  },
+						  
+						  {
+							  "propertyName":"text-transform",
+							  "value":"none"
+						  
+						  },
+						  {
+							  "propertyName":"width",
+							  "value":"auto"
+						  
+						  },					  
+								  {
+							  "propertyName":"background-color",
+							  "value":" #dfe9e9"
+						  
+						  }
+					  
+					  
+						  ]
 					
 				}
-				
-	 ]
-				
+				}
+				  ]
+				}
+				]
     
 }
