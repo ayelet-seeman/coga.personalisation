@@ -197,42 +197,6 @@
             }
         },
         {
-            "function": "partners",
-            "offName": "partners",
-            "type": ["link"],
-            "name": "partners link",
-            "inherits": "false",
-            "settings": {
-                "shortcut": "SHIFT+H",
-                "longdesc": "this links to the partners page.",
-                "tooltip": "partners",
-                "text": "partners",
-                "Symbol": [{
-
-                }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;font-size:2em;border: 5px solid"
-            }
-        },
-        {
-            "function": "investors",
-            "offName": "investors",
-            "type": ["link"],
-            "name": "investors link",
-            "inherits": "false",
-            "settings": {
-                "shortcut": "SHIFT+H",
-                "longdesc": "this links to the investors page.",
-                "tooltip": "investors",
-                "text": "investors",
-                "Symbol": [{
-
-                }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;font-size:2em;border: 5px solid"
-            }
-        },
-        {
             "function": "contactus",
             "offName": "contactus",
             "type": ["link"],
@@ -458,6 +422,65 @@
             "css": "visibility:visible;font-size:2em;border: 5px solid"
         }
     }],
+"@role": [
+		{
+                "offName": "navigation",
+				"descendents":[
+					{ 
+					"descendentTag":"a",
+					"settings":
+					{
+					   "css": [
+					  {
+						  "propertyName":"font-size",
+						  "value":"1.7em"
+					  
+					  },
+					  {
+						  "propertyName":"border-color",
+						  "value":"black"
+					  
+					  },
+					   {
+						  "propertyName":"color",
+						  "value":"black"
+					  
+					  },
+					  {
+						  "propertyName":"border-style",
+						  "value":"solid"
+					  
+					  },
+					  {
+						  "propertyName":"font-family",
+						  "value":"Gotham, \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+					  
+					  },
+					  
+					  {
+						  "propertyName":"text-transform",
+						  "value":"none"
+					  
+					  },
+					  {
+						  "propertyName":"width",
+						  "value":"auto"
+					  
+					  },					  
+      				          {
+						  "propertyName":"background-color",
+						  "value":" #dfe9e9"
+					  
+					  }
+					  
+					  
+  ]
+					
+					
+				}
+					}
+				]
+				},
 
     "@coga-simplification": [{
         "simplest": {
