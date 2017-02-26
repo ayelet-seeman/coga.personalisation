@@ -162,24 +162,6 @@
             }
         },
         {
-            "function": "about us",
-            "offName": "about us",
-            "type": ["link"],
-            "name": "about link",
-            "inherits": "false",
-            "settings": {
-                "shortcut": "SHIFT+H",
-                "longdesc": "this links to the about us page.",
-                "tooltip": "about",
-                "text": "about",
-                "Symbol": [{
-
-                }],
-                "@aria-hidden": "false",
-                "css": "visibility:visible;font-size:2em;border: 5px solid"
-            }
-        },
-        {
             "function": "contactus",
             "offName": "contactus",
             "type": ["link"],
