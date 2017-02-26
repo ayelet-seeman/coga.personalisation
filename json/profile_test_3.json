@@ -160,7 +160,134 @@
                 "@aria-hidden": "false",
                 "css": "visibility:visible;font-size:2em;border: 5px solid"
             }
-        },        {
+        },
+        {
+            "function": "mens",
+            "offName": "mens",
+            "type": ["link"],
+            "name": "mens link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the mens page.",
+                "tooltip": "mens",
+                "text": "mens",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "womens",
+            "offName": "womens",
+            "type": ["link"],
+            "name": "womens link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the womens page.",
+                "tooltip": "womens",
+                "text": "womens",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "childrens",
+            "offName": "childrens",
+            "type": ["link"],
+            "name": "childrens link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the childrens page.",
+                "tooltip": "childrens",
+                "text": "childrens",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "shoes",
+            "offName": "shoes",
+            "type": ["link"],
+            "name": "shoes link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the shoes page.",
+                "tooltip": "shoes",
+                "text": "shoes",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "sports",
+            "offName": "sports",
+            "type": ["link"],
+            "name": "sports link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the sports page.",
+                "tooltip": "sports",
+                "text": "sports",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "sales",
+            "offName": "sales",
+            "type": ["link"],
+            "name": "sales link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the sales page.",
+                "tooltip": "sales",
+                "text": "sales",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "services",
+            "offName": "services",
+            "type": ["link"],
+            "name": "services link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the services page.",
+                "tooltip": "services",
+                "text": "services",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
             "function": "about us",
             "offName": "about us",
             "type": ["link"],
@@ -171,6 +298,42 @@
                 "longdesc": "this links to the about us page.",
                 "tooltip": "about",
                 "text": "about",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "partners",
+            "offName": "partners",
+            "type": ["link"],
+            "name": "partners link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the partners page.",
+                "tooltip": "partners",
+                "text": "partners",
+                "Symbol": [{
+
+                }],
+                "@aria-hidden": "false",
+                "css": "visibility:visible;font-size:2em;border: 5px solid"
+            }
+        },
+        {
+            "function": "investors",
+            "offName": "investors",
+            "type": ["link"],
+            "name": "investors link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "SHIFT+H",
+                "longdesc": "this links to the investors page.",
+                "tooltip": "investors",
+                "text": "investors",
                 "Symbol": [{
 
                 }],
@@ -270,7 +433,66 @@
                 }],
                 "@aria-hidden": "false"
             }
-	}
+        }, {
+            "function": "product",
+            "offName": "product",
+            "type": ["link"],
+            "name": "product link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this links to the product.",
+                "tooltip": "product",
+                "text": "product",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/125971-200.png",
+                    "creator": {
+                        "name": "BraveBros.",
+                        "url": "https://thenounproject.com/bravebros/"
+                    },
+                    "license": {
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    },
+                    "settings": {
+                        "width": "",
+                        "height": "",
+                        "margin": "",
+                        "padding": ""
+                    }
+                }],
+                "@aria-hidden": "false"
+            }
+        }, {
+            "function": "services",
+            "offName": "services",
+            "type": ["link"],
+            "name": "services link",
+            "inherits": "false",
+            "settings": {
+                "shortcut": "",
+                "longdesc": "this links to the services.",
+                "tooltip": "services",
+                "text": "services",
+                "Symbol": [{
+                    "url": "https://d30y9cdsu7xlg0.cloudfront.net/png/32455-200.png",
+                    "creator": {
+                        "name": "Christopher Smith",
+                        "url": "https://thenounproject.com/oneafternine/"
+                    },
+                    "license": {
+                        "name": "Creative Commons",
+                        "url": "http://creativecommons.org/licenses/by/3.0/us/"
+                    },
+                    "settings": {
+                        "width": "",
+                        "height": "",
+                        "margin": "",
+                        "padding": ""
+                    }
+                }],
+                "@aria-hidden": "false"
+            }
         }
     ],
 
@@ -343,10 +565,9 @@
             "Symbol": "",
             "@aria-hidden": "false",
             "css": "visibility:visible;font-size:2em;border: 5px solid"
-             }
-	    
-         }]
-,
+        }
+    }],
+
     "@coga-simplification": [{
         "simplest": {
             "settings": [{
