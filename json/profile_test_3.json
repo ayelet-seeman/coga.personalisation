@@ -1,3 +1,4 @@
+// JSON Document this is test 3 -  working
 {
     "hello": "world",
     "coga:name": "USMCI",
@@ -630,7 +631,7 @@
 						  },
 						  {
 							  "propertyName":"font-family",
-							  "value":"Arial, sans-serif"
+							  "value":"Gotham, \"Helvetica Neue\", Helvetica, Arial, sans-serif"
 						  
 						  },
 						  
