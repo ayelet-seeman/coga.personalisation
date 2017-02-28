@@ -48,7 +48,6 @@ function personalise_element(element, profile) {
 //works also with tag name
 function personalise_element_attribute(element, profileAttribute, AttributeName) {
 	//code for a tag
-	console.log(profileAttribute);
 	if (AttributeName == "tagName") { var attribute = element.tagName; }
 	//code for an attribute
 	else var attribute = element.getAttribute(AttributeName);
@@ -78,24 +77,24 @@ function personalise_element_attribute(element, profileAttribute, AttributeName)
 
 						if (isDefined(profileAttribute[j].settings)) {
 
-							if (isDefined(profileAttribute[j].settings.Symbol.url)) {
+							if (isDefined(profileAttribute[j].settings.Symbol[0].url)) {
 
 								//set width and height
 								var height = "30";
 								var width = "30";
-								if (isDefined(profileAttribute[j].settings.Symbol.settings.height))
-									var height = profileAttribute[j].settings.Symbol.settings.height;
+								if (isDefined(profileAttribute[j].settings.Symbol[0].settings.height))
+									var height = profileAttribute[j].settings.Symbol[0].settings.height;
 
-								if (isDefined(profileAttribute[j].settings.Symbol.settings.width))
-									var width = profileAttribute[j].settings.Symbol.settings.width;
+								if (isDefined(profileAttribute[j].settings.Symbol[0].settings.width))
+									var width = profileAttribute[j].settings.Symbol[0].settings.width;
 
-								// console.log(profileAttribute);
+								console.log(profileAttribute);
 								//add icon when text is defined
 								if (isDefined(profileAttribute[j].settings.text))
-									element.innerHTML = "<img height='20px' width='20px;' src=" + profileAttribute[j].settings.Symbol.url + ">" + " " + profileAttribute[j].settings.text;
+									element.innerHTML = "<img height='20px' width='20px;' src=" + profileAttribute[j].settings.Symbol[0].url + ">" + " " + profileAttribute[j].settings.text;
 
 								//add icon when text isn't defined
-								else element.innerHTML = "<img src=" + profileAttribute[j].settings.Symbol.url + " >" + "" + element.innerHTML;
+								else element.innerHTML = "<img src=" + profileAttribute[j].settings.Symbol[0].url + " >" + "" + element.innerHTML;
 							}
 
 							else {
@@ -131,37 +130,38 @@ function personalise_element_attribute(element, profileAttribute, AttributeName)
 		}
 }
 
-//hide or display element by it's coga-importance according to the settings in the JSON object recieved
+//hide or display element by it's coga-simplification according to the settings in the JSON object recieved
 function personalise_element_importance(element, imp_settings) {
 
+	var arImp = element.getAttribute("coga-simplification");
 
-	 arImp =  element.getAttribute("coga-simplification");
-console.log(imp_settings);
-	 if (isDefined(arImp)&&isDefined(imp_settings[arImp].settings['@aria-hidden'])) {
-	   //change aria-hidden attribute
-	   if (imp_settings[arImp].settings['@aria-hidden']=="false")
-	   element.setAttribute("aria-hidden", "false");
-	   else if (imp_settings[arImp].settings['@aria-hidden']=="true")
-	   element.setAttribute("aria-hidden", "true");
-	 }
+	var currentarImpObj = jQuery.map(imp_settings, function (item) { return item[arImp] });
+
+	if (isDefined(arImp) && isDefined(currentarImpObj[0].settings[0]['@aria-hidden'])) {
+		//change aria-hidden attribute
+		if (currentarImpObj[0].settings[0]['@aria-hidden'] == "false")
+			element.setAttribute("aria-hidden", "false");
+		else if (currentarImpObj[0].settings[0]['@aria-hidden'] == "true")
+			element.setAttribute("aria-hidden", "true");
+	}
 }
 
 //display elements with an coga-simplification attribute one level lower than currently displayed
 function moreOptions(profile) {
-console.log(profile['@coga-simplification']);
+
 	var temp = 0;
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-simplification'].high.settings['@aria-hidden'] == "true") {
-		profile['@coga-simplification'].high.settings['@aria-hidden'] = "false";
+	if (profile['@coga-simplification'][1].high.settings[0]['@aria-hidden'] == "true") {
+		profile['@coga-simplification'][1].high.settings[0]['@aria-hidden'] = "false";
 	}
 	else
-		if (profile['@coga-simplification'].med.settings['@aria-hidden'] == "true") {
-			profile['@coga-simplification'].med.settings['@aria-hidden'] = "false";
+		if (profile['@coga-simplification'][2].med.settings[0]['@aria-hidden'] == "true") {
+			profile['@coga-simplification'][2].med.settings[0]['@aria-hidden'] = "false";
 		}
 		else
-			if (profile['@coga-simplification'].low.settings['@aria-hidden'] == "true") {
+			if (profile['@coga-simplification'][3].low.settings[0]['@aria-hidden'] == "true") {
 				{
-					profile['@coga-simplification'].low.settings['@aria-hidden'] = "false";
+					profile['@coga-simplification'][3].low.settings[0]['@aria-hidden'] = "false";
 					temp = 1;
 				}
 			}
@@ -176,16 +176,16 @@ console.log(profile['@coga-simplification']);
 //hide elements with an coga-simplification attribute one level higher than currently hidden
 function lessOptions(profile) {
 	//change settings in local JSON skin (profile)
-	if (profile['@coga-simplification'].low.settings['@aria-hidden'] == "false") {
-		profile['@coga-simplification'].low.settings['@aria-hidden'] = "true";
+	if (profile['@coga-simplification'][3].low.settings[0]['@aria-hidden'] == "false") {
+		profile['@coga-simplification'][3].low.settings[0]['@aria-hidden'] = "true";
 	}
 	else
-		if (profile['@coga-simplification'].med.settings['@aria-hidden'] == "false") {
-			profile['@coga-simplification'].med.settings['@aria-hidden'] = "true";
+		if (profile['@coga-simplification'][2].med.settings[0]['@aria-hidden'] == "false") {
+			profile['@coga-simplification'][2].med.settings[0]['@aria-hidden'] = "true";
 		}
 		else
-			if (profile['@coga-simplification'].high.settings['@aria-hidden'] == "false") {
-				profile['@coga-simplification'].high.settings['@aria-hidden'] = "true";
+			if (profile['@coga-simplification'][1].high.settings[0]['@aria-hidden'] == "false") {
+				profile['@coga-simplification'][1].high.settings[0]['@aria-hidden'] = "true";
 
 			}
 	//personalise importance according to new profile
@@ -257,38 +257,39 @@ function makeCorsRequest(url) {
 }
 
 //set elements' CSS according to the settings in the JSON object recieved
-function setCSS (element, settings) {
-	if (isDefined(settings))
-	  for (var i=0; i<settings.length; i++)
-			  {
-				  if (isDefined(settings[i].propertyName))
-				  {
-					  var propertyName = settings[i].propertyName;
-					  if (isDefined(settings[i].value))
-					  {
-						  var value = settings[i].value;
-					  $(element).css(propertyName, value);
-					  }
-				  }
+function setCSS(element, settings) {
+	if (isDefined(settings)) {
+		settings = settings.split(';');
+		for (var i = 0; i < settings.length; i++) {
+			var cssDefinition = settings[i].split(':'),
+				propertyName = cssDefinition[0],
+				value = cssDefinition[1];
 
-			  }
+			if (isDefined(propertyName) && isDefined(value)) {
+				$(element).css(propertyName, value);
+			}
+		}
+	}
 
 }
 
 
 //set elements' descendents' CSS according to the settings in the JSON object recieved
-function setCSS_des (element, des_settings) {
+function setCSS_des(element, des_settings) {
 	if (isDefined(des_settings))
-		for (var i=0; i<des_settings.length; i++)
-		{
+		for (var i = 0; i < des_settings.length; i++) {
 			var styleSettings = des_settings[i].settings.css;
-			if (isDefined(styleSettings));
-			for (var j=0; j<styleSettings.length; j++)
-			{
-				var propertyName = styleSettings[j].propertyName;
-				var value = styleSettings[j].value;
-				if (isDefined(propertyName) && isDefined(value))
-					$(element).find(des_settings[i].descendentTag).css(propertyName, value);
+			if (isDefined(styleSettings)) {
+				styleSettings = styleSettings.split(';');
+				for (var j = 0; j < styleSettings.length; j++) {
+					var cssDefinition = settings[j].split(':'),
+						propertyName = cssDefinition[0],
+						value = cssDefinition[1];
+
+					if (isDefined(propertyName) && isDefined(value)) {
+						$(element).css(propertyName, value);
+					}
+				}
 			}
 		}
 
