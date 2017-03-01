@@ -55,6 +55,9 @@ function apply_mapping(mapping) {
         });
         
     });
+
+    // experiment with calling the COGA personalize script
+    getPersonalisation('https://rawgit.com/ayelet-seeman/coga.personalisation/master/json/profile_test_3.json');
 }
 
 // start here

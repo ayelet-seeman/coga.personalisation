@@ -23,7 +23,7 @@ The drawback is that each mapping is quite site-specific, but many users could b
 
 ## What it doesn't do
 
-* It doesn't run the COGA personalization scripts (yet).
+* Needs better integration with COGA personalize scripts
 * See https://github.com/ayelet-seeman/coga.personalisation for some examples of these scripts
 * Element matching ability is limited by the XPath functions available in the browser.
 
