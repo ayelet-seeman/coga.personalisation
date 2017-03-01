@@ -1,0 +1,31 @@
+{
+    "page_elements": [
+        {
+        "xpath": "//nav//*[text()='Home']",
+        "attributes": [
+                {
+                "name": "coga-destination",
+                "value": "home"
+                }
+            ]
+        },
+        {
+        "xpath": "//nav//*[text()='About Us']",
+        "attributes": [
+                {
+                "name": "coga-destination",
+                "value": "about us"
+                }
+            ]
+        },
+        {
+        "xpath": "//*[@class='footer']//*[text()='Site Map']",
+        "attributes": [
+                {
+                "name": "coga-destination",
+                "value": "site map"
+                }
+            ]
+        }
+    ]
+}

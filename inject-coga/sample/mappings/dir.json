@@ -1,0 +1,14 @@
+{
+    "domains": 
+    [
+        {
+            "domain": "accessibility.athena-ict.com", 
+            "mapping": "http://localhost:8000/mappings/mapping01.json"
+        },
+         
+        {
+            "domain": "localhost:8000",
+            "mapping": "http://localhost:8000/mappings/mapping01.json"
+        }
+    ]
+}

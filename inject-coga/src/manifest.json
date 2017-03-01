@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Inject COGA",
+  "description": "This extension applies COGA vocabulary to pre-existing websites",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery-3.1.1.min.js", "inject-coga.js"]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}
